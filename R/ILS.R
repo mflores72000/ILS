@@ -1,4 +1,4 @@
-##' Interlaboratory Study (ILS)
+##' Interlaboratory Study Jonathan Pallasco
 ##'
 ##' It performs interlaboratory studies (ILS) to detect those laboratories that provide non-consistent results when comparing to others.
 ##' It permits to work simultaneously with various testing materials, from standard univariate, and functional data analysis (FDA) perspectives.
