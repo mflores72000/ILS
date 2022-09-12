@@ -55,3 +55,26 @@ reference:
       - TG
       - DSC
       - IDT
+
+navbar:
+  title: ~
+  left:
+    - text: Authors
+      icon: fa-user
+    - text: Functions and Databases
+    - text: Materials
+      menu:
+      - text: Example ILS
+      - text: Univariate Data Analysis
+        href: articles/univariantes.html
+      - text: Functional Data Analysis (FDA)
+    - text: Scientific articles
+      menu:
+      - text: Articles
+      - text: Thesis
+    - text: Conferences
+      menu:
+      - text: Videos
+      - text: Conference material
+    - text: Changelog
+
