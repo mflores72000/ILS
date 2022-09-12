@@ -62,6 +62,7 @@ navbar:
     - text: Authors
       icon: fa-user
     - text: Functions and Databases
+      href: reference/index.html
     - text: Materials
       menu:
       - text: Example ILS
