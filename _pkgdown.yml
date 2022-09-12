@@ -1,4 +1,57 @@
 url: https://mflores72000.github.io/ILS/
+
 template:
   bootstrap: 5
+  bootswatch: minty
+  bslib:
+    base_font: {google: "Roboto"}
+    heading_font: {google: "Roboto Slab"}
+    code_font: {google: "JetBrains Mono"}
 
+
+
+reference:
+  - title: "Interlaboratory Studies (ILS)"
+    contents:
+      - ILS
+  - title: "Univariate Data Analysis"
+    desc: >
+     The ILS package .
+    contents:
+      - lab.qcdata
+      - lab.qcs
+      - h.qcs
+      - k.qcs
+      - cochran.test
+      - grubbs.test
+      - lab.aov
+      - plot.lab.qcdata
+      - plot.lab.qcs
+
+  - title: "Functional Data Analysis (FDA)"
+    desc: >
+     FDA
+    contents:
+      - ils.fqcdata
+      - ils.fqcs
+      - mandel.fqcs
+      - outliers.ils
+      - boot.sim.set
+      - func.ils.formula
+      - plot.ils.fqcdata
+      - plot.ils.fqcs
+      - plot.mandel.fqcs
+
+  - title: "Databases used in the package"
+  - title: "Univariate Data Analysis"
+    desc: >
+     Clinical study of blood glucose measurement.
+    contents:
+      - Glucose
+  - title: "Functional Data Analysis"
+    desc: >
+      Characterization of materials by thermogravimetric analysis.
+    contents:
+      - TG
+      - DSC
+      - IDT
