@@ -3,7 +3,7 @@ pkgdown: 2.0.6
 pkgdown_sha: ~
 articles:
   univariantes: univariantes.html
-last_built: 2022-09-12T02:33Z
+last_built: 2022-09-12T02:39Z
 urls:
   reference: https://mflores72000.github.io/ILS/reference
   article: https://mflores72000.github.io/ILS/articles
