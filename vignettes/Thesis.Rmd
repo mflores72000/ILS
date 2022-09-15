@@ -1,0 +1,117 @@
+---
+title: "Degree work"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Degree work}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r include=FALSE}
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color,
+      x)
+  } else x
+}
+```
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  dev = "png",
+  dpi = 150,
+  fig.asp = 0.618,
+  fig.width = 5,
+  out.width = "60%",
+  fig.align = "center",
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+<br>
+<br>
+
+<p style="text-align:justify;"> A new proposal for the detection of laboratories that provide not consistent results in an ILS is based on functional data analysis techniques, random projections and the functional extensions of Mandel's h and k statistics. Based on these statistics, the approach to contrast the Repeatability and Reproducibility Hypotheses for the functional case will be carried out. The key idea of this new methodology is to transfer the resolution of a functional problem to a simpler case of study, the real case.</p>
+
+<br>
+
+<p style="text-align:justify;"> In addition, a case study is presented on clinical laboratories using Bootstrap resampling to detect laboratories providing inconsistent results in an ILS. Traditionally, in an ILS it is assumed that laboratory data follow the normal distribution. However, in this degree work they develop an algorithm where they use non-parametric Bootstrap resampling to calculate the critical values of Mandel's h and k statistics to detect inconsistent results in an ILS.</p>
+
+<br>
+
+<p style="text-align:justify;">Both methodologies are presented in the degree theses of the students of the National Polytechnic School and the University of the Armed Forces respectively in detail below.</p>
+
+<br>
+
+# `r colorize("New Contributions of Functional Data Analysis in Statistical Process Control","#1CA666")`
+<br>
+
+<object data="Thesis/199451588.pdf" width=775, height=550></object>
+
+<br>
+
+### `r colorize("Cite","#1CA666")`
+
+<p style="text-align:justify;">Sánchez, M. F. (2019). New Contributions of Functional Data Analysis in Statistical Process Control.</p>
+
+<br>
+
+```{r eval=FALSE}
+@article{sanchez2019nuevas,
+  title={Nuevas Aportaciones del An{\'a}lisis de Datos Funcionales en el Control Estad{\i}stico de Procesos},
+  author={S{\'a}nchez, Miguel Flores},
+  year={2019}
+}
+```
+<br>
+
+
+
+# `r colorize("New methodology for the detection of not consistent results in interlaboratory studies using functional data analysis","#1CA666")`
+
+<br>
+
+<object data="Thesis/génesis_moreno_y_cristian_solórzano_-_trabajo_con_correciones.pdf" width=775, height=550></object>
+
+<br>
+
+### `r colorize("Cite","#1CA666")`
+
+<p style="text-align:justify;">Solorzano Maya, C. I., & Moreno Armijos, G. C. (2022). New methodology for the detection of inconsistent results in interlaboratory studies using functional data analysis (Bachelor's thesis, Quito: EPN, 2022).</p>
+
+<br>
+
+```{r eval=FALSE}
+@mastersthesis{moreno2022nueva,
+  title={Nueva metodolog{\'\i}a para la detecci{\'o}n de resultados inconsistentes en estudios interlaboratorios utilizando an{\'a}lisis de datos funcionales.},
+  author={Moreno Armijos, G{\'e}nesis Chabeli},
+  type={{B.S.} thesis},
+  year={2022},
+  school={Quito: EPN, 2022.}
+}
+```
+
+<br>
+
+# `r colorize("Application of a new methodology based on the Bootstrap method for the detection of atypical results in interlaboratory studies: A practical case in clinical laboratories","#1CA666")`
+
+<br>
+
+<object data="Thesis/T-ESPE.pdf" width=775, height=550></object>
+
+<br>
+
+### `r colorize("Cite","#1CA666")`
+
+<p style="text-align:justify;">BOSSANO CAVE, J. R. (2019). VICE-RECTORATE FOR RESEARCH, INNOVATION AND TECHNOLOGY TRANSFER.</p>
+
+<br>
+
+```{r eval=FALSE}
+@article{bossano2019vicerrectorado,
+  title={VICERRECTORADO DE INVESTIGACION, INNOVACION Y TRANSFERENCIA DE TECNOLOGIA},
+  author={BOSSANO CUEVA, JOS{\'E} ROBERTO},
+  year={2019}
+}
+```
