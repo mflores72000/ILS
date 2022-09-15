@@ -1,0 +1,51 @@
+---
+title: "Conference materials"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Conference materials}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r include=FALSE}
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color,
+      x)
+  } else x
+}
+```
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  dev = "png",
+  dpi = 150,
+  fig.asp = 0.618,
+  fig.width = 5,
+  out.width = "60%",
+  fig.align = "center",
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+<br>
+<br>
+
+<p style="text-align:justify;"> A new proposal for the detection of laboratories that provide not consistent results in an ILS is based on functional data analysis techniques, random projections and the functional extensions of Mandel's h and k statistics. Based on these statistics, the approach to contrast the Repeatability and Reproducibility Hypotheses for the functional case will be carried out. The key idea of this new methodology is to transfer the resolution of a functional problem to a simpler case of study, the real case.</p>
+
+<br>
+
+# `r colorize("Novas librerías para o control estatístico da calidade (qcr) e estudos interlaboratorio (ILS) no contorno da Industria 4.0","#1CA666")`
+<br>
+
+<object data="11_salvador_naya.pdf" width=775, height=550></object>
+
+<br>
+
+# `r colorize("Statistical quality control using the libraries qcr, ILS and fda.qc","#1CA666")`
+
+<br>
+
+<object data="control_estadistico_de_la_calidad_mediante_las_librerias_qcr_ils_y_fda.qc.pdf" width=775, height=550></object>
+

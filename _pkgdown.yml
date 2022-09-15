@@ -80,7 +80,9 @@ navbar:
         href: articles/Thesis.html
     - text: Conferences
       menu:
-      - text: Videos
-      - text: Conference material
+      - text: Conference Videos
+        href: articles/conference_videos.html
+      - text: Conference Materials
+        href: articles/conference_materials.html
     - text: Changelog
 
