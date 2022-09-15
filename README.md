@@ -2,7 +2,7 @@
 # <span style="color: green"> About ILS package </span> <img src="man/figures/logo.PNG" align="right" alt="" width=120, height=120 />
 
 <!-- badges: start -->
-<a href="https://cran.r-project.org/package=pkgdown"
+<a href="https://cloud.r-project.org/web/packages/ILS"
 class="pkgdown-release"><img
 src="https://www.r-pkg.org/badges/version/pkgdown"
 alt="CRAN Status" /></a>
