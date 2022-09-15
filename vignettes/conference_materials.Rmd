@@ -39,7 +39,7 @@ knitr::opts_chunk$set(
 # `r colorize("Novas librerías para o control estatístico da calidade (qcr) e estudos interlaboratorio (ILS) no contorno da Industria 4.0","#1CA666")`
 <br>
 
-<object data="11_salvador_naya.pdf" width=775, height=550></object>
+<object data="conference_materials/11_salvador_naya.pdf" width=775, height=550></object>
 
 <br>
 
@@ -47,5 +47,5 @@ knitr::opts_chunk$set(
 
 <br>
 
-<object data="control_estadistico_de_la_calidad_mediante_las_librerias_qcr_ils_y_fda.qc.pdf" width=775, height=550></object>
+<object data="conference_materials/control_estadistico_de_la_calidad_mediante_las_librerias_qcr_ils_y_fda.qc.pdf" width=775, height=550></object>
 
