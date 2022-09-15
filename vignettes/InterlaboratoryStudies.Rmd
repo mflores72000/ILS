@@ -1,0 +1,133 @@
+---
+title: "Examples ILS"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Examples ILS}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r include=FALSE}
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color,
+      x)
+  } else x
+}
+```
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  dev = "png",
+  dpi = 150,
+  fig.asp = 1,
+  fig.width = 7,
+  fig.height = 5,
+  out.width = "100%",
+  out.height = "70%",
+  fig.align = "center",
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+<br>
+
+# `r colorize("1. Examples of Interlaboratory Studies","#1CA666")`
+
+<p style="text-align:justify;"> An Interlaboratory Study evaluates the analytical methods performed by laboratories, either for the evaluation of the efficiency of the laboratories involved, or for the performance of an experimental procedure, or for the validation of a standard guideline. For example, to show the application of consistency test, the `ILS`, package contains the `Glucose` dataset, avalaible on ASTM E-691 that corresponds to the results of a clinical test. Likewise, from a study of the properties of the calcium oxolate material, three datasets (`IDT`, `TG`, `DSC`) were obtained, and they were incorporated into the package.</p>
+
+<br>
+
+## `r colorize("1.2. Clinical study of blood glucose measurement","#1CA666")`
+
+<p style="text-align:justify;"> The `Glucose` dataset corresponds to the serum glucose test (measurements of the concentration of glucose in the blood used to control the diabetes). In the study, eight laboratories where involved, and five different tests were performed on blood samples labelled with different references, ranging from a low sugar content to a very high one. Three replicates were obtained for each sample.</p>
+
+<p style="text-align:justify;"> Each of these laboratories measured five different concentration levels (A, B, C, D, E) of a given material, and at each of these levels, three measurements were taken (3 replicates). Each laboratory provided a total of 15 measurements (3 for each level), therefore, with 8 laboratories involved, 120 measurements were obtained.</p>
+
+<p style="text-align:justify;"> In order to access this dataset, the `ILS` package installing and loading is required. Once loading is performed, the `Glucose` `data.frame` object is called using the following instructions.</p>
+
+```{r warning=FALSE,message=FALSE}
+library("ILS")
+data("Glucose", package = "ILS")
+```
+<p style="text-align:justify;"> The first step to perform an analysis with the `ILS` package consist on using the function `lab.qcdata()` (quality control data) that receives a data.frame as an argument. The first column of the data frame must contain the response variable, the second column accounts for the index of repetition for each laboratory, the third column includes the index of the material at which the test was performed, while the fourth column includes the index of the laboratory where the procedure was performed.</p>
+
+
+<p style="text-align:justify;"> Afterward, the `qcdata` object, corresponding to the `lab.qcdata()` class, is developed. The descriptive statistics information of the dataset can be summarized by using the `summary()` function.</p>
+
+```{r warning=FALSE,message=FALSE}
+qcdata <- lab.qcdata(Glucose)
+summary(qcdata)
+```
+
+```{r warning=FALSE,message=FALSE}
+plot(qcdata, ylab = "Laboratory", xlab = "Glucose concentration in blood")
+```
+<center> __Figure 1:__ Measurements of glucose concentration in blood used to control diabetes.</center>
+
+<br>
+
+<p style="text-align:justify;"> Figure 1, shows the results of all laboratories and it can be noted that the blood glucose level increases from material A to D and there is more variability between the results for each laboratory from the material C to material E.</p>
+
+<p style="text-align:justify;"> In order to calculate the graphical and analytical statistics for the scalar (univariate) case, first, the function `lab.qcs()` (quality control statistics) has to be used. This function returns the estimation of the statistical required measures (mean, variance, etc.) for estimating the Mandel’s h and k statistics, as well as the required measures to perform the Cochran and Grubbs tests.</p>
+
+<p style="text-align:justify;"> The `qcdata` object uses the `lab.qcs()` function to create the `qcstat` object that estimates both the mean and the global deviation from the results of all laboratories and all materials. In addition, the repeatability deviation ($S_r$) , the deviation between the means of laboratories ($S_B$), and the reproducibility deviation ($S_R$) for each material are estimated.</p>
+
+```{r warning=FALSE,message=FALSE}
+qcstat <- lab.qcs(qcdata)
+summary(qcstat)
+```
+
+
+```{r warning=FALSE,message=FALSE}
+plot(qcstat, ylab = 'Material', xlab = 'Desviations')
+```
+<center>__Figure 2__: Measures of variability for each material obtained from the results of all the laboratories.</center>
+
+<p style="text-align:justify;"> In Figure 2, the values of $S$ (the global deviation of all laboratories), $S_r$ (the repeatability’s deviation), $S_R$ (reproducibility’s deviation) and $S_B$ (the deviation between the means of the laboratories) are shown for each material. A greater variability can be noted from material C to material E. Materials C and D have a greater variability between the results of the laboratories ($S_R$) and within them ($S_r$).</p>
+
+<br>
+
+## `r colorize("1.2. Characterization of materials by thermogravimetric analysis","#1CA666")`
+
+<p style="text-align:justify;">In a experiment, 105 samples of calcium oxalate were analysed by Thermogravimetric (`TG`) techniques, obtaining 105 `TG` curves showing the loss of oxalate mass as a function of temperature when the oxalate samples were heated at 20◦C/min. In addition, 90 samples of Calcium Oxalate were analysed by Differential Scanning Calorimetry (`DSC`) thermal technique, obtaining 90 `DSC` curves that determinate, from an SDT instrument, the difference of energy between a reference and the oxalate sample. We can observe the exchange of energy between the sample and the reference as a function of temperature when the latter vary as a linear function of the time defined by a slope of 20◦C/min. Two sets of data were generated from the results, a `TG` dataset, obtained from 7 different laboratories, and a `DSC` dataset, obtained from 6 different laboratories. In each laboratory 15 curves were analysed in 1000 observations.</p>
+
+<p style="text-align:justify;">In addition, from the `TG` curves, a third set of data called `IDT` (Initial Decomposition Temperature) was obtained, this is a parameter defined by the temperature at which the studied material losses the 5% of its weight when it is heated at a constant rate. This dataset is composed of the `IDT` values of calcium oxalate obtained from 7 different laboratories that analyses (each one) 15 oxalate samples. This dataset is an example of `ILS` study with scalar response, obtained by extracting just only one representative feature from the `TG` curve. It is important to stress that when a feature extraction process is performed, there is the risk of loosing relevant information and thus making erroneous findings. </p>
+
+<p style="text-align:justify;">Laboratories 1, 6, and 7 presented non-consistent results. In laboratory 1 a Simultaneous Thermal Analyzer (STA) was used with an out of phase calibration program. In laboratory 6 we used a simultaneous `SDT` analyser with an old calibration, and finally, in laboratory 7 we used a simultaneous `SDT` analyser with a bias into the temperature with respect to the real values (2◦C displaced with respect to the melting point of the zinc).</p>
+
+<p style="text-align:justify;">For the estimation of the functional statistics (for the performance of the graphical and analytical methods), the procedure was the same as for the scalar case. The `ILS` package provides the `ils.fqcdata()` (functional quality control data) function that developes an object that has the structure of a `data.frame`, in which each row represents a test result. The size of the `data.frame` is $n \times l$, where $n$ is the number of replicates performed by each laboratory, and $l$ accounts for the number of laboratories that participate in the study. Specific functions were implemented to make plots and summaries of these type of objects.</p>
+
+<p style="text-align:justify;">Then, the function `ils.fqcs()` (functional quality control statistical) is needed for the estimation of some important statistical functional measures: functional mean, functional variance, etc. These are necessary for the estimation of the $H(t)$ and $K(t)$ and the $d_H$ and $d_K$ statistics.</p>
+
+<p style="text-align:justify;">To built an object of class `ils.fqcdata`, first we defined the grid in which the observations will be obtained. In this case, the 1000 points that compose the grid accounts for temperatures ranging from 40◦C to 850◦C. In Figure 3, the `TG` curves are presented. From the `fqcdata` object, the `fqcstat` object was performed.</p>
+
+```{r warning=FALSE,message=FALSE}
+delta <- seq(from = 40 ,to = 850 ,length.out = 1000 )
+fqcdata <- ils.fqcdata(TG, p = 7, argvals = delta)
+main <- "TG curves obtained from calcium oxalate"
+xlab <- "Temperature (C)"
+ylab <- "Mass (%)"
+fqcstat <- ils.fqcs(fqcdata)
+summary(fqcstat)
+```
+
+```{r warning=FALSE,message=FALSE}
+plot(x = fqcdata, main = main, xlab = xlab , ylab = ylab,
+legend = TRUE,x.co = 20, y.co = 90)
+```
+<center> __Figure 3__: TG curves obtained from calcium oxalate.</center>
+
+
+<p style="text-align:justify;">The `plot()` function creates a panel with four graphs, in the first row we have the means and functional variances for each laboratory, while in the second row the mean and global functional variance are plotted. Figure 4, shows the different functional means and functional variances for each laboratory, as well as the overall mean and the overall variance corresponding to the complete `TG` dataset.</p>
+
+```{r warning=FALSE,message=FALSE}
+plot(fqcstat, xlab = xlab, ylab = ylab)
+```
+<center> __Figure 4__: Functional descriptive statistics: functional means and functional variances for each laboratory as well as the overall functional mean and the overall functional variance corresponding to the `TG` curves obtained from calcium oxalate. </center>
+
+<br>
+
+<p style="text-align:justify;"> Afterward, the qcdata object, corresponding to the `lab.qcdata()` class, is developed. The descriptive statistics information of the dataset can be summarized by using the `summary()` function. Figure 1, shows the results of all laboratories.</p>
+

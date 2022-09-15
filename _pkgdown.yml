@@ -67,6 +67,7 @@ navbar:
     - text: Materials
       menu:
       - text: Example ILS
+        href: articles/InterlaboratoryStudies.html
       - text: Univariate Data Analysis
         href: articles/univariantes.html
       - text: Functional Data Analysis (FDA)
