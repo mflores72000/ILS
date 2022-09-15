@@ -3,8 +3,9 @@ pkgdown: 2.0.6
 pkgdown_sha: ~
 articles:
   Authors: Authors.html
+  InterlaboratoryStudies: InterlaboratoryStudies.html
   univariantes: univariantes.html
-last_built: 2022-09-15T00:20Z
+last_built: 2022-09-15T00:37Z
 urls:
   reference: https://mflores72000.github.io/ILS/reference
   article: https://mflores72000.github.io/ILS/articles
