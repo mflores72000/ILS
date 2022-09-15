@@ -85,4 +85,5 @@ navbar:
       - text: Conference Materials
         href: articles/conference_materials.html
     - text: Changelog
+      href: news/index.html
 
