@@ -1,0 +1,82 @@
+---
+title: "Articles"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Articles}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r include=FALSE}
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color,
+      x)
+  } else x
+}
+```
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  dev = "png",
+  dpi = 150,
+  fig.asp = 0.618,
+  fig.width = 5,
+  out.width = "60%",
+  fig.align = "center",
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+<br>
+
+<p style="text-align:justify;">The methodology used to detect laboratories that provide inconsistent results, working simultaneously with different test materials, from the perspective of Univariate Data Analysis and Functional Data Analysis (FDA), can be found in the articles presented.</p>
+
+
+# `r colorize("Functional extensions of Mandel's h and k statistics for outlier detection in interlaboratory studies","#1CA666")`
+
+<object data="Articles/ArticuloMiguelFlores.pdf" width=775, height=550></object>
+
+<br>
+
+### `r colorize("Cite","#1CA666")`
+
+<p style="text-align:justify;"> Flores, M., Tarrio-Saavedra, J., Fernandez-Casal, R., & Naya, S. (2018). Functional extensions of Mandel's h and k statistics for outlier detection in interlaboratory studies. Chemometrics and Intelligent Laboratory Systems, 176, 134-148. [DOI](https://doi.org/10.1016/j.chemolab.2018.03.016)</p>
+
+```{r eval=FALSE}
+@article{flores2018functional,
+  title={Functional extensions of Mandel's h and k statistics for outlier detection in interlaboratory studies},
+  author={Flores, Miguel and Tarrio-Saavedra, Javier and Fernandez-Casal, Ruben and Naya, Salvador},
+  journal={Chemometrics and Intelligent Laboratory Systems},
+  volume={176},
+  pages={134--148},
+  year={2018},
+  publisher={Elsevier}
+}
+```
+
+# `r colorize("An R package for statistical analysis in Interlaboratory Studies","#1CA666")`
+
+<object data="Articles/ILSarticle.pdf" width=775, height=550></object>
+
+<br>
+
+### `r colorize("Cite","#1CA666")`
+
+<p style="text-align:justify;"> Flores, M., Fernández-Casal, R., Naya, S., Tarrío-Saavedra, J., & Bossano, R. (2018). ILS: An R package for statistical analysis in Interlaboratory Studies. Chemometrics and Intelligent Laboratory Systems, 181, 11-20. [DOI](https://doi.org/10.1016/j.chemolab.2018.07.013)</p>
+
+```{r eval=FALSE}
+@article{flores2018ils,
+  title={ILS: An R package for statistical analysis in Interlaboratory Studies},
+  author={Flores, Miguel and Fern{\'a}ndez-Casal, Rub{\'e}n and Naya, Salvador and Tarr{\'\i}o-Saavedra, Javier and Bossano, Roberto},
+  journal={Chemometrics and Intelligent Laboratory Systems},
+  volume={181},
+  pages={11--20},
+  year={2018},
+  publisher={Elsevier}
+}
+```
+
+
+

@@ -75,6 +75,7 @@ navbar:
     - text: Scientific articles
       menu:
       - text: Articles
+        href: articles/Articles.html
       - text: Thesis
     - text: Conferences
       menu:
