@@ -61,6 +61,7 @@ navbar:
   left:
     - text: Authors
       icon: fa-user
+      href: articles/Authors.html
     - text: Functions and Databases
       href: reference/index.html
     - text: Materials
