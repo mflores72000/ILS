@@ -41,6 +41,8 @@ knitr::opts_chunk$set(
 </tr>
 </table>
 
+<br>
+
 <table width="100%" border="1"  bordercolorlight="red" bordercolordark="maroon" >
 <tr>
 <th width="20%" ></th>
@@ -52,7 +54,7 @@ knitr::opts_chunk$set(
 </tr>
 </table>
 
-
+<br>
 
 <table width="100%" border="1"  bordercolorlight="red" bordercolordark="maroon" >
 <tr>
@@ -64,6 +66,8 @@ knitr::opts_chunk$set(
 <td  width="20%" align="justify">Ph.D. in Statistics and Operations Research, Master in Statistical Techniques (University of La Coruña).</td>
 </tr>
 </table>
+
+<br>
 
 <table width="100%" border="1"  bordercolorlight="red" bordercolordark="maroon" >
 <tr>
