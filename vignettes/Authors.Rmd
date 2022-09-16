@@ -34,7 +34,7 @@ knitr::opts_chunk$set(
 
 |                  |   __Ph.D Miguel Alfonso Flores__ |  
 |:-----------------:|:---------------------------|
-|![](figures/MiguelFlores.png){width=300 height=400}| Ph.D. in Statistics and Operations Research, Master in Statistical Techniques (University of La Coruña). He has experience in Education and Higher Vocational Training, university and business in the field of Statistics & Machine Learning. Professor of Probability and Statistics at the National Polytechnic School. Member of the Multidisciplinary Research Group in Information Systems, Technology Management and Innovation (SIGTI) of the National Polytechnic School and the Group of Modeling, Optimization and Statistical Inference (MODES) of the University of La Coruña. |
+|![](figures/MiguelFlores.PNG){width=300 height=400}| Ph.D. in Statistics and Operations Research, Master in Statistical Techniques (University of La Coruña). He has experience in Education and Higher Vocational Training, university and business in the field of Statistics & Machine Learning. Professor of Probability and Statistics at the National Polytechnic School. Member of the Multidisciplinary Research Group in Information Systems, Technology Management and Innovation (SIGTI) of the National Polytechnic School and the Group of Modeling, Optimization and Statistical Inference (MODES) of the University of La Coruña. |
 
 
 <br>
