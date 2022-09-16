@@ -115,3 +115,12 @@ knitr::opts_chunk$set(
   year={2019}
 }
 ```
+
+# `r colorize("Functional data analysis approach of Mandel's h and k statistic in Interlaboratory Studies","#1CA666")`
+
+<object data="Articles/(2017)  Cap Functional data analysis approach of Mandel's h and k statistics in Iterlaboratory Stuies.pdf" width=775, height=550></object>
+
+<br
+
+
+

@@ -26,4 +26,17 @@ alt="R-CMD-check" /></a>
 <br>
 
 <p style="text-align:justify;"> Flores, M., Fernández-Casal, R., Naya, S., Tarrío-Saavedra, J., & Bossano, R. (2018). ILS: An R package for statistical analysis in interlaboratory studies.. *Chemometrics and Intelligent Laboratory Systems* , **181** , 11-20,[DOI](https://doi.org/10.1016/j.chemolab.2018.07.013) </p> 
+
+<br>
+
+<p style="text-align:justify;"> Flores, M., Fernández-Casal, R., Naya, S., Tarrío-Saavedra, J., & Bossano, R. (2018). ILS: An R package for statistical analysis in Interlaboratory Studies. Chemometrics and Intelligent Laboratory Systems, 181, 11-20. [DOI](https://doi.org/10.1016/j.chemolab.2018.07.013)</p>
+
+<br>
+
+<p style="text-align:justify;"> Naya, S., Tarrío-Saavedra, J., López-Beceiro, J., Francisco-Fernández, M., Flores, M., & Artiaga, R. (2014). Statistical functional approach for interlaboratory studies with thermal data. Journal of Thermal Analysis and Calorimetry, 118(2), 1229-1243. [DOI](https://doi.org/10.1007/s10973-014-4039-1)</p>
+
+<br>
+
+<p style="text-align:justify;"> Flores, M., Moreno, G., Solórzano, C., Naya, S., & Tarrío-Saavedra, J. (2021). Robust bootstrapped Mandel's h and k statistics for outlier detection in interlaboratory studies. Chemometrics and Intelligent Laboratory Systems, 219, 104429. [DOI](https://doi.org/10.1016/j.chemolab.2021.104429)</p>
+
 <br>
