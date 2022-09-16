@@ -55,6 +55,9 @@ reference:
       - TG
       - DSC
       - IDT
+authors:
+  Miguel Flores:
+    href: https://github.com/mflores72000
 
 navbar:
   title: ~

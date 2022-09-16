@@ -41,4 +41,8 @@ knitr::opts_chunk$set(
 
 |                  |   __Ph.D Salvador Naya__ |  
 |:-----------------:|:---------------------------|
-|<img src="figures/SalvadorNaya.jpg" width=300 height=400 /> | Ph.D. in Statistics and Operations Research, Master in Statistical Techniques (University of La Coruña). . |
+|![](figures/SalvadorNaya.jpg){width=300 height=400}| Ph.D. in Statistics and Operations Research, Master in Statistical Techniques (University of La Coruña). |
+
+
+
+
