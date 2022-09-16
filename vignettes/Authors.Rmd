@@ -43,5 +43,14 @@ knitr::opts_chunk$set(
 |:-----------------:|:---------------------------|
 |![](figures/SalvadorNaya.jpg){width=300 height=400}| Ph.D. in Statistics and Operations Research, Master in Statistical Techniques (University of La Coruña). |
 
+<br>
 
+|                  |   __Dr. Javier Tarrío Saavedra__ |  
+|:-----------------:|:---------------------------|
+|![](figures/JavierTarrio-Saavedra.jpg){width=300 height=400}| Ph.D. in Statistics and Operations Research, Master in Statistical Techniques (University of La Coruña). He has experience in Statistics, Industrial Statistics, Statistical Quality Control, Statistical Learning, Materials Science, Thermal Analysis and Rheology, Bibliometry, Naval and Oceanic Engineering, Industrial Engineering, Energy Efficiency, Epidemiology, Epidemiology|
 
+<br>
+
+|                  |   __Ph.D Ruben Fernandez__ |  
+|:-----------------:|:---------------------------|
+|![](figures/SalvadorNaya.jpg){width=300 height=400}| AGREGAR. |

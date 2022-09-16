@@ -8,8 +8,10 @@ Authors@R: c(
       comment = c(ORCID = "0000-0002-7742-1247")),
 			person("Ruben","Fernandez",role=c("aut"),  
       comment = c(ORCID = "0000-0002-5785-3739")),
-			person("Salvador","Naya",role=c("aut")),
-			person("Javier","Tarrio-Saavedra",role=c("aut"))
+			person("Salvador","Naya",role=c("aut"),
+			comment = c(ORCID = "0000-0003-4931-9859")),
+			person("Javier","Tarrio-Saavedra",role=c("aut"),
+			comment = c(ORCID ="0000-0002-9584-127X"))
       )
 Depends: R (>= 3.1.0), lattice, multcomp, depthTools, fda.usc, MASS,
         stats
