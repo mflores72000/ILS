@@ -55,9 +55,17 @@ reference:
       - TG
       - DSC
       - IDT
+
 authors:
   Miguel Flores:
-    href: https://github.com/mflores72000
+    href: https://scholar.google.es/citations?user=UOqAIw0AAAAJ&hl
+  Ruben Fernadez:
+    href: https://scholar.google.es/citations?user=X3GWf_cAAAAJ&hl
+  Salvador Naya:
+    href: https://scholar.google.es/citations?user=cYugRuUAAAAJ&hl
+  Javier Tarrio-Saavedra:
+    href: https://scholar.google.es/citations?user=rbBIGUkAAAAJ&hl
+
 
 navbar:
   title: ~
