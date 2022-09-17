@@ -43,12 +43,12 @@ reference:
       - plot.mandel.fqcs
 
   - title: "Databases used in the package"
-  - title: "Univariate Data Analysis"
+  - title: ""
     desc: >
      Clinical study of blood glucose measurement.
     contents:
       - Glucose
-  - title: "Functional Data Analysis"
+  - title: ""
     desc: >
       Characterization of materials by thermogravimetric analysis.
     contents:
