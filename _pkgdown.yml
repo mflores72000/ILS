@@ -43,6 +43,8 @@ reference:
       - plot.mandel.fqcs
 
   - title: "Databases used in the package"
+    desc: >
+     In order to carry out interlaboratory studies, two studies have been carried out with both univariate data and functional data, obtaining the following databases.
   - title: ""
     desc: >
      Clinical study of blood glucose measurement.
@@ -50,7 +52,7 @@ reference:
       - Glucose
   - title: ""
     desc: >
-      Characterization of materials by thermogravimetric analysis.
+     Characterization of materials by thermogravimetric analysis.
     contents:
       - TG
       - DSC
