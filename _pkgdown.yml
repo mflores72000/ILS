@@ -78,7 +78,7 @@ navbar:
     - text: Functions and Databases
       href: reference/index.html
     - text: Materials
-      icon: book-half
+      icon: book
       menu:
       - text: Example ILS
         href: articles/InterlaboratoryStudies.html
@@ -86,7 +86,7 @@ navbar:
         href: articles/univariantes.html
       - text: Functional Data Analysis (FDA)
         href: articles/FDA.html
-    - text: Scientific articles
+    - text: Scientific Articles
       menu:
       - text: Articles
         href: articles/Articles.html
