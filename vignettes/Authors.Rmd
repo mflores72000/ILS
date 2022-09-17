@@ -49,7 +49,7 @@ knitr::opts_chunk$set(
 <th width="20%" >Ph.D Rubén Fernandez</th>
 </tr>
 <tr>
-<td  width="20%" align="center"> Insertar Imagen</td>
+<td  width="20%" align="center">![](figures/RubenFernandez.jpg){width=300 height=400}</td>
 <td  width="20%" align="justify"> Insertar Bibliografia</td>
 </tr>
 </table>
@@ -79,3 +79,6 @@ knitr::opts_chunk$set(
 <td  width="20%" align="justify">Ph.D. in Statistics and Operations Research, Master in Statistical Techniques (University of La Coruña). He has experience in Statistics, Industrial Statistics, Statistical Quality Control, Statistical Learning, Materials Science, Thermal Analysis and Rheology, Bibliometry, Naval and Oceanic Engineering, Industrial Engineering, Energy Efficiency, Epidemiology, Epidemiology.</td>
 </tr>
 </table>
+
+
+![](figures/RubenFernandez.jpg){width=300 height=400}
