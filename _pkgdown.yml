@@ -67,7 +67,9 @@ authors:
     href: https://scholar.google.es/citations?user=cYugRuUAAAAJ&hl
   Javier Tarrio-Saavedra:
     href: https://scholar.google.es/citations?user=rbBIGUkAAAAJ&hl
-
+  RStudio:
+    href: https://www.rstudio.com
+    html: <img src='https://www.tidyverse.org/rstudio-logo.svg' alt='RStudio' width='72' />
 
 navbar:
   title: ~
@@ -78,6 +80,7 @@ navbar:
     - text: Functions and Databases
       href: reference/index.html
     - text: Materials
+      icon: book
       menu:
       - text: Example ILS
         href: articles/InterlaboratoryStudies.html
