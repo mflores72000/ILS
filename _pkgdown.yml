@@ -80,7 +80,6 @@ navbar:
     - text: Functions and Databases
       href: reference/index.html
     - text: Materials
-      icon: book
       menu:
       - text: Example ILS
         href: articles/InterlaboratoryStudies.html
