@@ -80,8 +80,12 @@
   <a class="nav-link" href="reference/index.html">Functions and Databases</a>
 </li>
 <li class="nav-item dropdown">
-  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-materials">Materials</a>
-  <div class="dropdown-menu" aria-labelledby="dropdown-materials">
+  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown--materials">
+    <span class=" book"></span>
+     
+    Materials
+  </a>
+  <div class="dropdown-menu" aria-labelledby="dropdown--materials">
     <a class="dropdown-item" href="articles/InterlaboratoryStudies.html">Example ILS</a>
     <a class="dropdown-item" href="articles/univariantes.html">Univariate Data Analysis</a>
     <a class="dropdown-item" href="articles/FDA.html">Functional Data Analysis (FDA)</a>
@@ -123,7 +127,13 @@
   </div>
 </nav><div class="container template-home">
 <div class="row">
-  <main id="main" class="col-md-9">
+  <main id="main" class="col-md-9"><div class="section level1">
+<div class="page-header">
+<img src="logo.png" class="logo" alt=""><h1 id="-about-ils-package--">
+<span style="color: green"> About ILS package </span> <a class="anchor" aria-label="anchor" href="#-about-ils-package--"></a>
+</h1>
+</div>
+<!-- badges: start -->
 <p style="text-align:justify;">The aim of the <code>ILS</code> package is to detect laboratories that provide not consistent results, working simultaneously with different test materials, from the perspective of the Univariate Data Analysis and the Functional Data Analysis (<strong>FDA</strong>).</p>
 <p style="text-align:justify;">The <code>ILS</code> package estimates the Mandel’s <span class="math inline"><em>h</em></span> and <span class="math inline"><em>k</em></span> univariate statistics, based on the <strong>ASTM E691</strong> and <strong>ISO 5725-2</strong> standards, to identify laboratories that provide significantly different results. <span class="math inline"><em>C</em><em>o</em><em>c</em><em>h</em><em>r</em><em>a</em><em>n</em></span> and <span class="math inline"><em>G</em><em>r</em><em>u</em><em>b</em><em>b</em><em>s</em></span> tests to evaluate the presence of outliers are also available. In addition, Analysis of Variance (<strong>ANOVA</strong>) techniques are provided, including the Tukey and F tests to evaluate differences between the means for the corresponding test variable.</p>
 <p style="text-align:justify;">One of the novelties of this package is the incorporation of tools to perform an <code>ILS</code> from a functional data analysis approach. Accordingly, the functional nature of the data obtained by experimental techniques corresponding to analytical chemistry, applied physics and engineering applications (spectra, thermograms, and sensor signals, among others) is taking into account by implementing the functional extensions of Mandel’s <span class="math inline"><em>h</em></span> and <span class="math inline"><em>k</em></span> statistics. For this purpose, the ILS package also estimates the functional statistics <span class="math inline"><em>H</em>(<em>t</em>)</span> and <span class="math inline"><em>K</em>(<em>t</em>)</span>, as well as the <span class="math inline"><em>d</em><sub><em>H</em></sub></span> y <span class="math inline"><em>d</em><sub><em>K</em></sub></span> test statistic, which are used to evaluate the repeatability and reproducibility hypotheses where the critical <span class="math inline"><em>c</em><sub><em>h</em></sub></span> and <span class="math inline"><em>c</em><sub><em>k</em></sub></span> values are estimated by using a bootstrap algorithm.</p>
@@ -137,7 +147,7 @@
 <p style="text-align:justify;">Naya, S., Tarrío-Saavedra, J., López-Beceiro, J., Francisco-Fernández, M., Flores, M., &amp; Artiaga, R. (2014). Statistical functional approach for interlaboratory studies with thermal data. Journal of Thermal Analysis and Calorimetry, 118(2), 1229-1243. <a href="https://doi.org/10.1007/s10973-014-4039-1" class="external-link">DOI</a></p>
 <p style="text-align:justify;">Flores, M., Moreno, G., Solórzano, C., Naya, S., &amp; Tarrío-Saavedra, J. (2021). Robust bootstrapped Mandel’s h and k statistics for outlier detection in interlaboratory studies. Chemometrics and Intelligent Laboratory Systems, 219, 104429. <a href="https://doi.org/10.1016/j.chemolab.2021.104429" class="external-link">DOI</a></p>
 </div>
-
+</div>
   </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
