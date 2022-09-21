@@ -9,8 +9,7 @@ src="https://www.r-pkg.org/badges/version/pkgdown"
 alt="CRAN Status" /></a>
 <a href="https://github.com/mflores72000/ILS"
 class="pkgdown-devel"><img
-src="https://github.com/r-lib/pkgdown/workflows/R-CMD-check/badge.svg"
-alt="R-CMD-check" /></a> 
+src="https://github.com/r-lib/pkgdown/workflows/R-CMD-check/badge.svg"alt="R-CMD-check" /></a> 
 <!-- badges: end -->
 
 
