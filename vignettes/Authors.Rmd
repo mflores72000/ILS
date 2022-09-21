@@ -103,6 +103,8 @@ I am an associate editor of several scientific journals and an elected member of
 
 <center>![](figures/SalvadorNaya.jpg){width=300 height=450}</center>
 
+\hrule
+
 <table>
 <tr>
 <br>
@@ -138,6 +140,18 @@ __Catedrático de universidad (CAT-UN)__
 </td>
 </tr>
 </table>
+
+__Catedrático de universidad (CAT-UN)__ 
+
+|   |   |
+|:--------|:----------------------------------|
+| __Department__  |    Mathematics| 
+| __Area__        | Statistics and operations research      |
+|__Research__  | <a href=https://investigacion.udc.es/es/Research/Details/G000199> Modeling Optimization and Statistical Inference Research Group</a> |
+| __Lines of research__| Parametric and nonparametric curve estimation, design of experiments, sampling, industrial reliability, statistical quality control  |
+| __Key words__| Statistical Modeling, Design of Experiments, Reliability, Quality Control  |
+| __Contact__| <a href=https://directorio.udc.es/persons/20637> UDC Directory</a> |
+
 
 <table>
 <tr>
