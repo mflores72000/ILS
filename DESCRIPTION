@@ -42,8 +42,7 @@ Encoding: UTF-8
 NeedsCompilation: no
 Packaged: 2018-03-07 03:15:13 UTC; MiguelA
 Date/Publication: 2018-03-06 21:42:25 UTC
-URL: https://github.com/mflores72000/ILS/,
-    https://mflores72000.github.io/ILS/
+URL: https://github.com/mflores72000/ILS/,https://mflores72000.github.io/ILS/
 BugReports: https://github.com/mflores72000/ILS/issues
 Suggests: 
     knitr,
