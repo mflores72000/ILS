@@ -99,10 +99,8 @@ I am an associate editor of several scientific journals and an elected member of
 # `r colorize("Dr. Rubén Fernandez","#1CA666")`
 <br>
 
-<img src="../man/figures/RubenFernandez.jpg" align="right" alt="" width=120, height=120 />
-
+<center>![](figures/RubenFernandez.jpg){width=300 height=450}</center>
 <br>
-
 
 $\rule{20.5cm}{0.1cm}$
 
@@ -124,13 +122,13 @@ __Associate Professor (PC-DR)__
 $\rule{20.5cm}{0.1cm}$
 
 
-### `r colorize("Biography","#1CA666")`
+## `r colorize("Biography","#1CA666")`
 
 <p style="text-align:justify;"> He is associate professor of [Statistics and Operations Research]( http://dm.udc.es/matematicas/es/node/41) in the Department of Mathematics at the [University of A Coruña](http://www.udc.gal) (Spain), member of the [MODES](http://dm.udc.es/modes) research group and of the Center for Research in Information and Communication Technologies ([CITIC]( https://citic.udc.es)). His main research line is nonparametric modeling of spatial and spatio-temporal data, a field in which he has co-directed two doctoral theses. Other of his research lines are Nonparametric Regression, Quality Control, Functional Data Analysis, Simulation, Bootstrap, Computational Statistics and Statistical Learning. He is co-author of 26 articles published in journals indexed in various databases (21 of which are in the Journal Citation Reports and 7 in the first quartile). He is committed to open source software and especially to the use of the R programming language. He is a member of the [RHispano](http://r-es.org) community, co-author of 6 R packages and of several open books on applied statistics (in Spanish), accessible through his [web page](https://rubenfcasal.github.io).</p>
 
+<br>
 
-
-## `r colorize("Dr. Salvador Naya","#1CA666")`
+# `r colorize("Dr. Salvador Naya","#1CA666")`
 
 <br>
 
@@ -157,15 +155,15 @@ __University Professor (CAT-UN)__
 
 $\rule{20.5cm}{0.1cm}$
 
-### `r colorize("Biography","#1CA666")`
+## `r colorize("Biography","#1CA666")`
 
-<p style="text-align:justify;">I am professor in Statistics and Operations Research at the University of A Coruña since 1994. My research lines include Parametric and Nonparametric Statistics, Quality Control, Survival Analysis, Functional Data Analysis, Big Data Statistical Analysis and Statistical Methods in Materials Science. I am teaching in the Interuniversity Master in Statistical Techniques (coorganized by the three Galician universities), as well as in the Master in the Master in Complex Materials, Thermal Analysis and Rheology (double international degree with the Paris Diderot), as well as in the master Erasmus Mundus Joint Master Degree: Sustainable ship and shipping  4.0 (international degree with the University of Napoli Federico II and University of Zagreb) and in the Degree in Naval Architecture and Ocean Engineering. </p>
+<p style="text-align:justify;">He is a professor in Statistics and Operations Research at the University of A Coruña since 1994.His research lines include Parametric and Nonparametric Statistics, Quality Control, Survival Analysis, Functional Data Analysis, Big Data Statistical Analysis and Statistical Methods in Materials Science. He is teaching in the Interuniversity Master in Statistical Techniques (coorganized by the three Galician universities), as well as in the Master in the Master in Complex Materials, Thermal Analysis and Rheology (double international degree with the Paris Diderot), as well as in the master Erasmus Mundus Joint Master Degree: Sustainable ship and shipping  4.0 (international degree with the University of Napoli Federico II and University of Zagreb) and in the Degree in Naval Architecture and Ocean Engineering. </p>
 
-<p style="text-align:justify;">I am a researcher of the MODES group and I am attached to the CITC research Center, both of the University of A Coruña. I am author of more than 130 papers. He has directed 7 doctoral theses and participated in more than 40 research and transfer projects with companies.</p> 
+<p style="text-align:justify;">He is a researcher of the MODES group and I am attached to the CITC research Center, both of the University of A Coruña. He is author of more than 130 papers. He has directed 7 doctoral theses and participated in more than 40 research and transfer projects with companies.</p> 
 
-<p style="text-align:justify;">I have been a delegate of the Student Advice and Promotion Service (SAPE) and Director of the Jorge Juan Catedra. I have been president and co-founder of the "Nerxus Quality Solutions" spin-off.</p>
+<p style="text-align:justify;">He has been a delegate of the Student Advice and Promotion Service (SAPE) and Director of the Jorge Juan Catedra. He has been president and co-founder of the "Nerxus Quality Solutions" spin-off.</p>
 
-<p style="text-align:justify;">I am an associate editor of several scientific journals and an elected member of the International Statistical Institute (ISI). He is Prize "Educator of the Year 2013" for the JLM Project and in 2020, along with 3 other colleagues, I was the winner of the SEIO-FBBVA Award in the category of best applied contribution with an impact in the social field, innovation or knowledge transfer in the field of Statistics. Since March 2016, I am the Vice Chancellor for Scientific Policy, Research and Transfer of University of A Coruña.</p>
+<p style="text-align:justify;">He is an associate editor of several scientific journals and an elected member of the International Statistical Institute (ISI). He is Prize "Educator of the Year 2013" for the JLM Project and in 2020, along with 3 other colleagues, he was the winner of the SEIO-FBBVA Award in the category of best applied contribution with an impact in the social field, innovation or knowledge transfer in the field of Statistics. Since March 2016, He is the Vice Chancellor for Scientific Policy, Research and Transfer of University of A Coruña.</p>
 
 
 

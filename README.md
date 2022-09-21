@@ -1,5 +1,5 @@
 
-# <span style="color: green"> About ILS package </span> <img src="../man/figures/logo.png" align="right" alt="" width=120, height=120 />
+# <span style="color: green"> About ILS package </span> <img src="man/figures/logo.png" align="right" alt="" width=120, height=120 />
 
 
 <!-- badges: start -->
