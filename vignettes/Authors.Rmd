@@ -105,7 +105,7 @@ I am an associate editor of several scientific journals and an elected member of
 
 <br>
 
-$\rule{18.5cm}{0.1cm}$
+$\rule{19.5cm}{0.1cm}$
 
 __Catedrático de universidad (CAT-UN)__ 
 
@@ -118,7 +118,6 @@ __Catedrático de universidad (CAT-UN)__
 | __Key words__| Statistical Modeling, Design of Experiments, Reliability, Quality Control  |
 | __Contact__| <a href=https://directorio.udc.es/persons/20637> UDC Directory</a> |
 
-$\rule{18.5m}{0.1cm}$
 
 <table>
 <tr>
@@ -130,7 +129,7 @@ $\rule{18.5m}{0.1cm}$
 
 <br>
 
-$\rule{18.5m}{0.1cm}$
+$\rule{19.5cm}{0.1cm}$
 
 ### Biography
 
