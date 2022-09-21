@@ -1,5 +1,6 @@
 
-# <span style="color: green"> About ILS package </span> <img src="figures/logo.PNG" align="right" alt="" width=120, height=120 />
+# <span style="color: green"> About ILS package </span> <img src="man/figures/logo.PNG" align="right" alt="" width=120, height=120 />
+
 
 <!-- badges: start -->
 <a href="https://cloud.r-project.org/web/packages/ILS"
