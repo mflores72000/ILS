@@ -105,7 +105,7 @@ I am an associate editor of several scientific journals and an elected member of
 
 <br>
 
-$\rule{19.5cm}{0.1cm}$
+$\rule{21cm}{0.1cm}$
 
 __Catedrático de universidad (CAT-UN)__ 
 
@@ -127,9 +127,7 @@ __Catedrático de universidad (CAT-UN)__
 </tr>
 </table>
 
-<br>
-
-$\rule{19.5cm}{0.1cm}$
+$\rule{21cm}{0.1cm}$
 
 ### Biography
 
