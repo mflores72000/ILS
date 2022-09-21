@@ -103,6 +103,7 @@ I am an associate editor of several scientific journals and an elected member of
 
 <center>![](figures/SalvadorNaya.jpg){width=300 height=450}</center>
 
+<br>
 
 __Catedrático de universidad (CAT-UN)__ 
 
@@ -123,9 +124,6 @@ __Catedrático de universidad (CAT-UN)__
 </tr>
 </table>
 
-|   |   |
-|:--------|:----------------------------------|
-| |   | 
 
 ### Biography
 
