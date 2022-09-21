@@ -97,6 +97,19 @@ I am an associate editor of several scientific journals and an elected member of
 
 <br>
 
+# Ph.D Rubén Fernandez
+<br>
+
+<center>![](figures/SalvadorNaya.jpg){width=300 height=450}</center>
+
+<br>
+
+### Biography
+
+<p style="text-align:justify;"> He is associate professor of [Statistics and Operations Research]( http://dm.udc.es/matematicas/es/node/41) in the Department of Mathematics at the [University of A Coruña](http://www.udc.gal) (Spain), member of the [MODES](http://dm.udc.es/modes) research group and of the Center for Research in Information and Communication Technologies ([CITIC]( https://citic.udc.es)). His main research line is nonparametric modeling of spatial and spatio-temporal data, a field in which he has co-directed two doctoral theses. Other of his research lines are Nonparametric Regression, Quality Control, Functional Data Analysis, Simulation, Bootstrap, Computational Statistics and Statistical Learning. He is co-author of 26 articles published in journals indexed in various databases (21 of which are in the Journal Citation Reports and 7 in the first quartile). He is committed to open source software and especially to the use of the R programming language. He is a member of the [RHispano](http://r-es.org) community, co-author of 6 R packages and of several open books on applied statistics (in Spanish), accessible through his [web page](https://rubenfcasal.github.io).</p>
+
+
+
 ## Ph.D Salvador Naya
 
 <br>
