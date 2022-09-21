@@ -103,43 +103,6 @@ I am an associate editor of several scientific journals and an elected member of
 
 <center>![](figures/SalvadorNaya.jpg){width=300 height=450}</center>
 
-\hrule
-
-<table>
-<tr>
-<br>
-__Catedrático de universidad (CAT-UN)__
-<table>
-<tr>
-<td>__Department__</td>
-<td>Mathematics</td>
-</tr>
-<tr>
-<td>__Area__</td>
-<td>Statistics and operations research</td>
-</tr>
-<tr>
-<td>__Research__ </td>
-<td> <a href=https://investigacion.udc.es/es/Research/Details/G000199> Modeling Optimization and Statistical Inference Research Group</a></td>
-</tr>
-<tr>
-<td>__Lines of research__</td>
-<td>Parametric and nonparametric curve estimation, design of experiments, sampling, industrial reliability, statistical quality control</td>
-</tr>
-<tr>
-<td>__Key words__</td>
-<td>Statistical Modeling, Design of Experiments, Reliability, Quality Control</td>
-</tr>
-<tr>
-<td>__Contact__</td>
-<td><a href=https://directorio.udc.es/persons/20637> UDC Directory</a></td>
-</tr>
-</table>
-</td>
-</table>
-</td>
-</tr>
-</table>
 
 __Catedrático de universidad (CAT-UN)__ 
 
@@ -152,7 +115,6 @@ __Catedrático de universidad (CAT-UN)__
 | __Key words__| Statistical Modeling, Design of Experiments, Reliability, Quality Control  |
 | __Contact__| <a href=https://directorio.udc.es/persons/20637> UDC Directory</a> |
 
-
 <table>
 <tr>
 <td><a href=https://orcid.org/0000-0003-4931-9859>![](figures/ORCIDSN.PNG){} </a></td> 
@@ -160,6 +122,10 @@ __Catedrático de universidad (CAT-UN)__
 <td><a href=https://www.scopus.com/authid/detail.uri?authorId=56262815700> ![](figures/ScopusSN.PNG){}</a></td>
 </tr>
 </table>
+
+|   |   |
+|:--------|:----------------------------------|
+| |   | 
 
 ### Biography
 
