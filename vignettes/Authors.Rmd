@@ -128,10 +128,22 @@ __Catedrático de universidad (CAT-UN)__
 <td>__Key words__</td>
 <td>Statistical Modeling, Design of Experiments, Reliability, Quality Control</td>
 </tr>
+<tr>
+<td>__Contact__</td>
+<td><a href=https://directorio.udc.es/persons/20637> UDC Directory</a></td>
+</tr>
 </table>
 </td>
 </table>
 </td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td><a href=https://orcid.org/0000-0003-4931-9859>![](figures/ORCIDSN.PNG){width=175 height=25} </a></td> 
+<td><a href=https://publons.com/wos-op/a/F-7405-2014> ![](figures/ResearchSN.PNG){width=175 height=25 align="center"}</a> </td>
+<td><a href=https://www.scopus.com/authid/detail.uri?authorId=56262815700> ![](figures/ScopusSN.PNG){width=175 height=25 align="center"}</a></td>
 </tr>
 </table>
 
