@@ -60,7 +60,7 @@ $\rule{20.5cm}{0.1cm}$
 # `r colorize("Dr. Rubén Fernandez","#1CA666")`
 <br>
 
-<center>![](../man/figures/RubenFernandez.jpg){width=300 height=450}</center>
+<center>![](../man/figures/RubenFernandez.jpg){width=300 height=500}</center>
 <br>
 
 $\rule{20.5cm}{0.1cm}$
