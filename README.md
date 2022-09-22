@@ -1,3 +1,7 @@
+---
+output: github_document
+---
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # <span style="color: green"> About ILS package </span> <img src="man/figures/logo.png" align="right" alt="" width=120, height=120 />
 
