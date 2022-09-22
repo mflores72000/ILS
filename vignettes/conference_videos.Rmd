@@ -30,7 +30,7 @@ knitr::opts_chunk$set(
 )
 ```
 ```{r, include = FALSE}
-#install.packages("vembedr")
+install.packages("vembedr")
 library(vembedr)
 ```
 
