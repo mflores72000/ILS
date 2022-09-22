@@ -45,8 +45,8 @@ __Associate Professor (PC-DR)__
 |:------------|:----------------------------------|
 | __Department__  |    Mathematics| 
 | __Area__        | Statistics and operations research      |
-|__Research__  |  |
-| __Lines of research__| |
+|__Research__  | Añadir |
+| __Lines of research__| Añadir |
 | __Contact__| <a href=https://math.epn.edu.ec/index.php/9-miembros/33-flores-sanchez-miguel-alfonso> EPN Directory </a> |
       
 $\rule{20.5cm}{0.1cm}$
