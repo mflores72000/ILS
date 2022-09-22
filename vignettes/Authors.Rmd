@@ -39,7 +39,7 @@ knitr::opts_chunk$set(
 
 $\rule{20.5cm}{0.1cm}$
 
-__Associate Professor (PC-DR)__ 
+__Full-time Professor (EPN)__ 
 
 |   |   |
 |:------------|:----------------------------------|
