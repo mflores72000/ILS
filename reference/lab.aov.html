@@ -83,13 +83,21 @@
     <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">lab.aov</span><span class="op">(</span><span class="va">x</span>, <span class="va">...</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># S3 method for default</span></span>
-<span><span class="fu">lab.aov</span><span class="op">(</span><span class="va">x</span>, var.index <span class="op">=</span> <span class="fl">1</span>, replicate.index <span class="op">=</span> <span class="fl">2</span>,</span>
-<span>  material.index <span class="op">=</span> <span class="fl">3</span>, laboratory.index <span class="op">=</span> <span class="fl">4</span>, data.name <span class="op">=</span> <span class="cn">NULL</span>,</span>
-<span>  level <span class="op">=</span> <span class="fl">0.95</span>, plot <span class="op">=</span> <span class="cn">FALSE</span>, pages <span class="op">=</span> <span class="fl">0</span>, <span class="va">...</span><span class="op">)</span></span>
+<span><span class="fu">lab.aov</span><span class="op">(</span></span>
+<span>  <span class="va">x</span>,</span>
+<span>  var.index <span class="op">=</span> <span class="fl">1</span>,</span>
+<span>  replicate.index <span class="op">=</span> <span class="fl">2</span>,</span>
+<span>  material.index <span class="op">=</span> <span class="fl">3</span>,</span>
+<span>  laboratory.index <span class="op">=</span> <span class="fl">4</span>,</span>
+<span>  data.name <span class="op">=</span> <span class="cn">NULL</span>,</span>
+<span>  level <span class="op">=</span> <span class="fl">0.95</span>,</span>
+<span>  plot <span class="op">=</span> <span class="cn">FALSE</span>,</span>
+<span>  pages <span class="op">=</span> <span class="fl">0</span>,</span>
+<span>  <span class="va">...</span></span>
+<span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># S3 method for lab.qcdata</span></span>
-<span><span class="fu">lab.aov</span><span class="op">(</span><span class="va">x</span>, level <span class="op">=</span> <span class="fl">0.95</span>, plot <span class="op">=</span> <span class="cn">FALSE</span>, pages <span class="op">=</span> <span class="fl">0</span>,</span>
-<span>  <span class="va">...</span><span class="op">)</span></span></code></pre></div>
+<span><span class="fu">lab.aov</span><span class="op">(</span><span class="va">x</span>, level <span class="op">=</span> <span class="fl">0.95</span>, plot <span class="op">=</span> <span class="cn">FALSE</span>, pages <span class="op">=</span> <span class="fl">0</span>, <span class="va">...</span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div class="section level2">
@@ -133,7 +141,7 @@ If name is not provided, it is retrieved from the object.</p></dd>
 
 
 <dt>pages</dt>
-<dd><p>By default 0, it indicates the number of pages over which to spread the output. For example, 
+<dd><p>By default 0, it indicates the number of pages over which to spread the output. For example,
 if pages=1,  all terms will be plotted on one page with the layout performed automatically.
  If pages=0, one plot will be displayed by each tested material.</p></dd>
 
@@ -142,7 +150,7 @@ if pages=1,  all terms will be plotted on one page with the layout performed aut
     <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a></h2>
     
 <dl><dt></dt>
-<dd><p>WHothorn T., Bretz, F., and Westfall, P. (2008), Simultaneous inference in general parametric models. 
+<dd><p>WHothorn T., Bretz, F., and Westfall, P. (2008), Simultaneous inference in general parametric models.
   Biometrical Journal, 50(3):346-363.</p></dd>
 
   <dt></dt>

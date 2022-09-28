@@ -83,9 +83,16 @@
     <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">h.qcs</span><span class="op">(</span><span class="va">x</span>, <span class="va">...</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># S3 method for default</span></span>
-<span><span class="fu">h.qcs</span><span class="op">(</span><span class="va">x</span>, var.index <span class="op">=</span> <span class="fl">1</span>, replicate.index <span class="op">=</span> <span class="fl">2</span>,</span>
-<span>  material.index <span class="op">=</span> <span class="fl">3</span>, laboratory.index <span class="op">=</span> <span class="fl">4</span>, data.name <span class="op">=</span> <span class="cn">NULL</span>,</span>
-<span>  alpha <span class="op">=</span> <span class="fl">0.05</span>, <span class="va">...</span><span class="op">)</span></span>
+<span><span class="fu">h.qcs</span><span class="op">(</span></span>
+<span>  <span class="va">x</span>,</span>
+<span>  var.index <span class="op">=</span> <span class="fl">1</span>,</span>
+<span>  replicate.index <span class="op">=</span> <span class="fl">2</span>,</span>
+<span>  material.index <span class="op">=</span> <span class="fl">3</span>,</span>
+<span>  laboratory.index <span class="op">=</span> <span class="fl">4</span>,</span>
+<span>  data.name <span class="op">=</span> <span class="cn">NULL</span>,</span>
+<span>  alpha <span class="op">=</span> <span class="fl">0.05</span>,</span>
+<span>  <span class="va">...</span></span>
+<span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># S3 method for lab.qcdata</span></span>
 <span><span class="fu">h.qcs</span><span class="op">(</span><span class="va">x</span>, alpha <span class="op">=</span> <span class="fl">0.05</span>, <span class="va">...</span><span class="op">)</span></span></code></pre></div>
@@ -131,11 +138,11 @@ If name is not provided, it is retrieved from the object.</p></dd>
     <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a></h2>
     
 <dl><dt></dt>
-<dd><p>Wilrich Peter-T. (2013),  Critical values of Mandel's h and k, 
+<dd><p>Wilrich Peter-T. (2013),  Critical values of Mandel's h and k,
   the Grubbs and the Cochran test statistic. Asta-Advances in Statistical Analysis, 97(1):1-10.</p></dd>
 
   <dt></dt>
-<dd><p>ASTM E 691 (1999), Standard practice for conducting an interlaboratory study 
+<dd><p>ASTM E 691 (1999), Standard practice for conducting an interlaboratory study
   to determine the precision of a test method. American Society for Testing and Materials. West Conshohocken, PA, USA.</p></dd>
 
 
