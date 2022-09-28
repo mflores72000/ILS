@@ -4,8 +4,10 @@
 \name{IDT}
 \alias{IDT}
 \title{Dataset composed of the initial decomposition temperature (IDT) of different samples of Calcium Oxalate, obtained by 7 different laboratories}
-\format{Dataframe of dimension 105 x 44. The first column corresponds to IDT variable, the second (Sample) is the replicate number,
- the third is the tested material (Material), and fourth is the laboratory.}
+\format{
+Dataframe of dimension 105 x 44. The first column corresponds to IDT variable, the second (Sample) is the replicate number,
+ the third is the tested material (Material), and fourth is the laboratory.
+}
 \description{
 Initial decomposition temperature (IDT) is a parameter defined by temperature at which a material loss 5\% of its weight
 when it is heated using a constant rate. One hundred and five calcium oxalate samples were tested by thermogravimetric analysis (TG),

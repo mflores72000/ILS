@@ -3,10 +3,9 @@
 \docType{package}
 \name{ILS}
 \alias{ILS}
-\alias{ILS-package}
 \title{Interlaboratoty Study}
 \description{
-Interlaboratory Study Jonathan Pallasco
+Interlaboratory Study
 }
 \details{
 It performs interlaboratory studies (ILS) to detect those laboratories that provide non-consistent results when comparing to others.

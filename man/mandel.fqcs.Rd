@@ -8,11 +8,26 @@
 \usage{
 mandel.fqcs(x, ...)
 
-\method{mandel.fqcs}{default}(x, p = NULL, index.laboratory = NULL,
-  argvals = NULL, rangeval = NULL, names = NULL, ...)
+\method{mandel.fqcs}{default}(
+  x,
+  p = NULL,
+  index.laboratory = NULL,
+  argvals = NULL,
+  rangeval = NULL,
+  names = NULL,
+  ...
+)
 
-\method{mandel.fqcs}{ils.fqcdata}(x, fdep = depth.mode, outlier = TRUE,
-  trim = 0.01, alpha = 0.01, nb = 200, smo = 0.05, ...)
+\method{mandel.fqcs}{ils.fqcdata}(
+  x,
+  fdep = depth.mode,
+  outlier = TRUE,
+  trim = 0.01,
+  alpha = 0.01,
+  nb = 200,
+  smo = 0.05,
+  ...
+)
 }
 \arguments{
 \item{x}{A (n x m) matrix or data-frame. 

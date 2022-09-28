@@ -4,8 +4,7 @@
 \alias{plot.lab.qcs}
 \title{Plot method for 'lab.qcs' objects}
 \usage{
-\method{plot}{lab.qcs}(x, title = NULL, xlab = NULL, ylab = NULL,
-  col = NULL, ylim = NULL, ...)
+\method{plot}{lab.qcs}(x, title = NULL, xlab = NULL, ylab = NULL, col = NULL, ylim = NULL, ...)
 }
 \arguments{
 \item{x}{Functional data object or a list with functional objects}

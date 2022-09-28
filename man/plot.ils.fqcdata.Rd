@@ -4,9 +4,19 @@
 \alias{plot.ils.fqcdata}
 \title{Plotting method for 'ils.fqcdata' objects}
 \usage{
-\method{plot}{ils.fqcdata}(x, type = "l", main = NULL, xlab = NULL,
-  ylab = NULL, ylim = NULL, x.co = NULL, y.co = NULL, legend = TRUE,
-  col = NULL, ...)
+\method{plot}{ils.fqcdata}(
+  x,
+  type = "l",
+  main = NULL,
+  xlab = NULL,
+  ylab = NULL,
+  ylim = NULL,
+  x.co = NULL,
+  y.co = NULL,
+  legend = TRUE,
+  col = NULL,
+  ...
+)
 }
 \arguments{
 \item{x}{Object ils.fqcdata (Functional Quality Control Data)}

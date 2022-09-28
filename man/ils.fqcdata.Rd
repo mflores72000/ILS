@@ -4,8 +4,14 @@
 \alias{ils.fqcdata}
 \title{Functional Quality Control Data}
 \usage{
-ils.fqcdata(x, p = NULL, index.laboratory = NULL, argvals = NULL,
-  rangeval = NULL, names = NULL)
+ils.fqcdata(
+  x,
+  p = NULL,
+  index.laboratory = NULL,
+  argvals = NULL,
+  rangeval = NULL,
+  names = NULL
+)
 }
 \arguments{
 \item{x}{A (n x m) matrix or data-frame. 

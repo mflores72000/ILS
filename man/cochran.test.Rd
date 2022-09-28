@@ -4,13 +4,20 @@
 \alias{cochran.test}
 \alias{cochran.test.default}
 \alias{cochran.test.lab.qcdata}
-\title{Function to compute the Grubbs test statistic.}
+\title{Function to compute the Cochran test statistic.}
 \usage{
 cochran.test(x, ...)
 
-\method{cochran.test}{default}(x, var.index = 1, replicate.index = 2,
-  material.index = 3, laboratory.index = 4, data.name = NULL,
-  alpha = 0.05, ...)
+\method{cochran.test}{default}(
+  x,
+  var.index = 1,
+  replicate.index = 2,
+  material.index = 3,
+  laboratory.index = 4,
+  data.name = NULL,
+  alpha = 0.05,
+  ...
+)
 
 \method{cochran.test}{lab.qcdata}(x, alpha = 0.05, ...)
 }
@@ -46,9 +53,9 @@ cochran.test(Glucose.qcdata)
 }
 \references{
 \describe{
-  \item{}{Wilrich Peter-T. (2013),  Critical values of mandel's h and k, 
+  \item{}{Wilrich Peter-T. (2013),  Critical values of mandel's h and k,
   the grubbs and the Cochran test statistic. Asta-Advances in Statistical Analysis, 97(1):1-10.}
-  \item{}{ASTM E 691 (1999), Standard practice for conducting an interlaboratory study 
+  \item{}{ASTM E 691 (1999), Standard practice for conducting an interlaboratory study
   to determine the precision of a test method. American Society for Testing and Materials. West Conshohocken, PA, USA.}
 }
 }

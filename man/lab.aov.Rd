@@ -8,12 +8,20 @@
 \usage{
 lab.aov(x, ...)
 
-\method{lab.aov}{default}(x, var.index = 1, replicate.index = 2,
-  material.index = 3, laboratory.index = 4, data.name = NULL,
-  level = 0.95, plot = FALSE, pages = 0, ...)
+\method{lab.aov}{default}(
+  x,
+  var.index = 1,
+  replicate.index = 2,
+  material.index = 3,
+  laboratory.index = 4,
+  data.name = NULL,
+  level = 0.95,
+  plot = FALSE,
+  pages = 0,
+  ...
+)
 
-\method{lab.aov}{lab.qcdata}(x, level = 0.95, plot = FALSE, pages = 0,
-  ...)
+\method{lab.aov}{lab.qcdata}(x, level = 0.95, plot = FALSE, pages = 0, ...)
 }
 \arguments{
 \item{x}{Object lab.qcdata.}
@@ -36,7 +44,7 @@ If name is not provided, it is retrieved from the object.}
 
 \item{plot}{If TRUE, confidence intervals are plot.}
 
-\item{pages}{By default 0, it indicates the number of pages over which to spread the output. For example, 
+\item{pages}{By default 0, it indicates the number of pages over which to spread the output. For example,
 if pages=1,  all terms will be plotted on one page with the layout performed automatically.
  If pages=0, one plot will be displayed by each tested material.}
 }
@@ -54,7 +62,7 @@ lab.aov(Glucose.qcdata,level = 0.95, plot = TRUE, pages = 1)
 }
 \references{
 \describe{
-  \item{}{WHothorn T., Bretz, F., and Westfall, P. (2008), Simultaneous inference in general parametric models. 
+  \item{}{WHothorn T., Bretz, F., and Westfall, P. (2008), Simultaneous inference in general parametric models.
   Biometrical Journal, 50(3):346-363.}
   \item{}{Heyden, Y., Smeyers-Verbeke, J. (2007), Set-up and evaluation of interlaboratory studies. J. Chromatogr. A, 1158:158-167.}
 }

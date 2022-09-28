@@ -4,8 +4,10 @@
 \name{TG}
 \alias{TG}
 \title{Thermogravimetry curves}
-\format{A 15 x 1000 x 7 dimension array ,  where each matrix consists of the 15 TG curves obtained testing 15 different oxalate samples,
-and evaluated in 1000 different values of temperature. These 15 curves were obtained for each of the overall 7 laboratories that have performed the esperiments.}
+\format{
+A 15 x 1000 x 7 dimension array ,  where each matrix consists of the 15 TG curves obtained testing 15 different oxalate samples,
+and evaluated in 1000 different values of temperature. These 15 curves were obtained for each of the overall 7 laboratories that have performed the esperiments.
+}
 \description{
 One hundred and five Calcium oxalate samples were tested by thermogravimetric (TG) analysis,
 obtaining 105 TG curves that shows the mass loss of oxalate depending on time when samples are heated at a constant temperature rate.

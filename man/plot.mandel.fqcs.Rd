@@ -4,8 +4,16 @@
 \alias{plot.mandel.fqcs}
 \title{Plotting method for 'mandel.fqcs' objects}
 \usage{
-\method{plot}{mandel.fqcs}(x, xlab = NULL, ylab = NULL, x.co = NULL,
-  y.co = NULL, legend = TRUE, col = NULL, ...)
+\method{plot}{mandel.fqcs}(
+  x,
+  xlab = NULL,
+  ylab = NULL,
+  x.co = NULL,
+  y.co = NULL,
+  legend = TRUE,
+  col = NULL,
+  ...
+)
 }
 \arguments{
 \item{x}{A mandel.fqcs object}

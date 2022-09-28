@@ -4,8 +4,7 @@
 \alias{plot.ils.fqcs}
 \title{Plotting method for 'ils.fqcs' objects}
 \usage{
-\method{plot}{ils.fqcs}(x, type = "l", xlab = NULL, ylab = NULL,
-  legend = TRUE, col = NULL, ...)
+\method{plot}{ils.fqcs}(x, type = "l", xlab = NULL, ylab = NULL, legend = TRUE, col = NULL, ...)
 }
 \arguments{
 \item{x}{Object functional data or a list with objects of functional data type}

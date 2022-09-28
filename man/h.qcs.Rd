@@ -8,9 +8,16 @@
 \usage{
 h.qcs(x, ...)
 
-\method{h.qcs}{default}(x, var.index = 1, replicate.index = 2,
-  material.index = 3, laboratory.index = 4, data.name = NULL,
-  alpha = 0.05, ...)
+\method{h.qcs}{default}(
+  x,
+  var.index = 1,
+  replicate.index = 2,
+  material.index = 3,
+  laboratory.index = 4,
+  data.name = NULL,
+  alpha = 0.05,
+  ...
+)
 
 \method{h.qcs}{lab.qcdata}(x, alpha = 0.05, ...)
 }
@@ -48,9 +55,9 @@ plot(h)
 }
 \references{
 \describe{
-  \item{}{Wilrich Peter-T. (2013),  Critical values of Mandel's h and k, 
+  \item{}{Wilrich Peter-T. (2013),  Critical values of Mandel's h and k,
   the Grubbs and the Cochran test statistic. Asta-Advances in Statistical Analysis, 97(1):1-10.}
-  \item{}{ASTM E 691 (1999), Standard practice for conducting an interlaboratory study 
+  \item{}{ASTM E 691 (1999), Standard practice for conducting an interlaboratory study
   to determine the precision of a test method. American Society for Testing and Materials. West Conshohocken, PA, USA.}
 }
 }

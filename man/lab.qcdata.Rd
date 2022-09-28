@@ -4,8 +4,14 @@
 \alias{lab.qcdata}
 \title{Quality Control Data}
 \usage{
-lab.qcdata(data, var.index = 1, replicate.index = 2, material.index = 3,
-  laboratory.index = 4, data.name = NULL)
+lab.qcdata(
+  data,
+  var.index = 1,
+  replicate.index = 2,
+  material.index = 3,
+  laboratory.index = 4,
+  data.name = NULL
+)
 }
 \arguments{
 \item{data}{Matrix or data-frame that contains the data, replicate index, type of material, and the laboratory.}
