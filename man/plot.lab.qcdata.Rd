@@ -7,7 +7,7 @@
 \method{plot}{lab.qcdata}(x, xlab = NULL, ylab = NULL, col = "blue", ...)
 }
 \arguments{
-\item{x}{A object of class \code{lab.qcdata} (Univariate Quality Control Data).}
+\item{x}{An object of class \code{lab.qcdata} (Univariate Quality Control Data).}
 
 \item{xlab}{Title for the x axis.}
 

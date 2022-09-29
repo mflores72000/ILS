@@ -22,7 +22,7 @@ grubbs.test(x, ...)
 \method{grubbs.test}{lab.qcdata}(x, alpha = 0.05, ...)
 }
 \arguments{
-\item{x}{A object of class \code{lab.qcdata} (Univariate Quality Control Data).}
+\item{x}{An object of class \code{lab.qcdata} (Univariate Quality Control Data).}
 
 \item{...}{Other arguments passed to or from methods.}
 

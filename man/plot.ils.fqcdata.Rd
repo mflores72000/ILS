@@ -44,7 +44,7 @@ The following values are possible for fdata2d class object: "image.contour" (by 
 
 \item{col}{Color specifications}
 
-\item{...}{Further arguments passed to matplot function (for fdata class).}
+\item{...}{Other arguments passed to matplot function (for fdata class).}
 }
 \description{
 Generic function to plot objects of 'ils.fqcdata' class

@@ -22,9 +22,9 @@ h.qcs(x, ...)
 \method{h.qcs}{lab.qcdata}(x, alpha = 0.05, ...)
 }
 \arguments{
-\item{x}{A object of class \code{lab.qcdata} (Univariate Quality Control Data).}
+\item{x}{An object of class \code{lab.qcdata} (Univariate Quality Control Data).}
 
-\item{...}{Arguments passed to or from methods.}
+\item{...}{Other arguments passed to or from methods.}
 
 \item{var.index}{A scalar with the column number corresponding to the observed variable (the critical to quality variable).
 Alternativelly can be a string with the name of the quality variable.}

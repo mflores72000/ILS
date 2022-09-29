@@ -7,7 +7,7 @@
 \method{plot}{lab.qcs}(x, title = NULL, xlab = NULL, ylab = NULL, col = NULL, ylim = NULL, ...)
 }
 \arguments{
-\item{x}{A object of class \code{lab.qcs} (Univariate Quality Control Statistics).}
+\item{x}{An object of class \code{lab.qcs} (Univariate Quality Control Statistics).}
 
 \item{title}{Main title for the plot.}
 

@@ -7,7 +7,7 @@
 \method{plot}{ils.fqcs}(x, type = "l", xlab = NULL, ylab = NULL, legend = TRUE, col = NULL, ...)
 }
 \arguments{
-\item{x}{An object of classs \code{ils.fqcs} (Functional Quality Control Statistics).}
+\item{x}{An object of class \code{ils.fqcs} (Functional Quality Control Statistics).}
 
 \item{type}{1-character string giving the type of plot desired.
 The following values are possible for fdata class object: "l" for lines (by default),
