@@ -19,22 +19,22 @@
 )
 }
 \arguments{
-\item{x}{Object ils.fqcdata (Functional Quality Control Data)}
+\item{x}{An object class of\code{ils.fqcdata} (Functional Quality Control Data)}
 
 \item{type}{1-character string giving the type of plot desired.
 The following values are possible for fdata class object: "l" for lines (by default),
-"p" for points, , "o" for overplotted points and lines, "b", "c" for (empty if "c") 
-points joined by lines, "s" and "S" for stair steps and "h" for histogram-like 
+"p" for points, , "o" for overplotted points and lines, "b", "c" for (empty if "c")
+points joined by lines, "s" and "S" for stair steps and "h" for histogram-like
 vertical lines. Finally, "n" does not produce any points or lines.
 The following values are possible for fdata2d class object: "image.contour" (by default) to display three-dimensional data and add the contour lines, "image" to display three-dimensional data, "contour" to display a contour plot, "persp" to display a perspective plots of a surface over the x-y plane and "filled.contour" to display a contour plot with the areas between the contours filled in solid color.}
 
-\item{main}{Main title for the plot}
+\item{main}{Main title for the plot.}
 
-\item{xlab}{Title for the x axis}
+\item{xlab}{Title for the x axis.}
 
-\item{ylab}{Title for the y axis}
+\item{ylab}{Title for the y axis.}
 
-\item{ylim}{The y limits of the plot}
+\item{ylim}{The y limits of the plot.}
 
 \item{x.co}{It speficies the x co-ordinates to be used to place a legend.}
 
@@ -65,7 +65,7 @@ plot(x = fqcdata, main = main, xlab=xlab, ylab=ylab,legend = TRUE)}
 \describe{
   \item{}{Febrero-Bande, M. and Oviedo, M. (2012),
    "Statistical computing in functional data analysis: the R package fda.usc". Journal of Statistical Software 51 (4), 1-28.}
-  \item{}{Naya, S., Tarrio-Saavedra. J., Lopez- Beceiro, J., Francisco Fernandez, M., Flores, M. and  Artiaga, R. (2014), 
+  \item{}{Naya, S., Tarrio-Saavedra. J., Lopez- Beceiro, J., Francisco Fernandez, M., Flores, M. and  Artiaga, R. (2014),
   "Statistical functional approach for interlaboratory studies with thermal data". Journal of Thermal Analysis and Calorimetry, 118,1229-1243.}
 }
 }

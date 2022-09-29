@@ -16,11 +16,11 @@
 )
 }
 \arguments{
-\item{x}{A mandel.fqcs object}
+\item{x}{An object of class \code{mandel.fqcs}.}
 
-\item{xlab}{Title for the x axis}
+\item{xlab}{Title for the x axis.}
 
-\item{ylab}{Title for the y axis}
+\item{ylab}{Title for the y axis.}
 
 \item{x.co}{It speficies the x co-ordinates to be used to place a legend.}
 
@@ -28,9 +28,9 @@
 
 \item{legend}{Logical argument. Default is TRUE then The legend default is used.}
 
-\item{col}{Color specifications}
+\item{col}{Color specifications.}
 
-\item{...}{arguments to be passed to or from methods}
+\item{...}{Other arguments to be passed to or from methods.}
 }
 \description{
 Generic function to plot objects of 'mandel.fqcs' class. Results of functional ILS studies are graphically shown.
@@ -51,7 +51,7 @@ plot(mandel.tg,legend = F,col=c(rep(3,5),1,1))
 \describe{
   \item{}{Febrero-Bande, M. and Oviedo, M. (2012),
    "Statistical computing in functional data analysis: the R package fda.usc". Journal of Statistical Software 51 (4), 1-28.}
-  \item{}{Naya, S., Tarrio-Saavedra. J., Lopez- Beceiro, J., Francisco Fernandez, M., Flores, M. and  Artiaga, R. (2014), 
+  \item{}{Naya, S., Tarrio-Saavedra. J., Lopez- Beceiro, J., Francisco Fernandez, M., Flores, M. and  Artiaga, R. (2014),
   "Statistical functional approach for interlaboratory studies with thermal data". Journal of Thermal Analysis and Calorimetry, 118,1229-1243.}
 }
 }

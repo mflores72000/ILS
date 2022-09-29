@@ -14,22 +14,22 @@ lab.qcdata(
 )
 }
 \arguments{
-\item{data}{Matrix or data-frame that contains the data, replicate index, type of material, and the laboratory.}
+\item{data}{A matrix or data-frame that contains the data, replicate index, type of material, and the laboratory.}
 
-\item{var.index}{Scalar with the column number corresponding to the observed variable (the critical to quality variable). 
-Alternatively, a string with the name of a quality variable can be provided.}
+\item{var.index}{A scalar with the column number corresponding to the observed variable (the critical to quality variable).
+Alternativelly can be a string with the name of the quality variable.}
 
-\item{replicate.index}{Scalar with the column number corresponding to the index each replicate.}
+\item{replicate.index}{A scalar with the column number corresponding to the index each replicate.}
 
-\item{material.index}{Scalar corresponding to the replicated number.}
+\item{material.index}{A scalar corresponding to the replicated number.}
 
-\item{laboratory.index}{Scalar that defines the index number of each laboratory.}
+\item{laboratory.index}{A scalar that defines the index number of each laboratory.}
 
-\item{data.name}{String specifying the name of the variable which appears on the plots. 
-If name is not provided, it is retrieved from the object.}
+\item{data.name}{A string specifying the name of the variable which appears on the plots.
+If name is not provided, it is taken from the object given as data.}
 }
 \description{
-It creates a 'lab.qcdata' class object to perform the interlaboratory study. 
+It creates a 'lab.qcdata' class object to perform the interlaboratory study.
 This object is used to plot ILS data and more.
 }
 \examples{
