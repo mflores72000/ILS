@@ -87,24 +87,24 @@
     <div class="section level2">
     <h2 id="arguments">Arguments<a class="anchor" aria-label="anchor" href="#arguments"></a></h2>
     <dl><dt>x</dt>
-<dd><p>Object functional data or a list with objects of functional data type</p></dd>
+<dd><p>An object of classs <code>ils.fqcs</code> (Functional Quality Control Statistics).</p></dd>
 
 
 <dt>type</dt>
 <dd><p>1-character string giving the type of plot desired.
 The following values are possible for fdata class object: "l" for lines (by default),
-"p" for points, , "o" for overplotted points and lines, "b", "c" for (empty if "c") 
-points joined by lines, "s" and "S" for stair steps and "h" for histogram-like 
+"p" for points, , "o" for overplotted points and lines, "b", "c" for (empty if "c")
+points joined by lines, "s" and "S" for stair steps and "h" for histogram-like
 vertical lines. Finally, "n" does not produce any points or lines.
 The following values are possible for fdata2d class object: "image.contour" (by default) to display three-dimensional data and add the contour lines, "image" to display three-dimensional data, "contour" to display a contour plot, "persp" to display a perspective plots of a surface over the x-y plane and "filled.contour" to display a contour plot with the areas between the contours filled in solid color.</p></dd>
 
 
 <dt>xlab</dt>
-<dd><p>Title for the x axis</p></dd>
+<dd><p>Title for the x axis.</p></dd>
 
 
 <dt>ylab</dt>
-<dd><p>Title for the y axis</p></dd>
+<dd><p>Title for the y axis.</p></dd>
 
 
 <dt>legend</dt>
@@ -112,11 +112,11 @@ The following values are possible for fdata2d class object: "image.contour" (by 
 
 
 <dt>col</dt>
-<dd><p>Color specifications</p></dd>
+<dd><p>Color specifications.</p></dd>
 
 
 <dt>...</dt>
-<dd><p>arguments to be passed to or from methods</p></dd>
+<dd><p>Other arguments to be passed to or from methods.</p></dd>
 
 </dl></div>
     <div class="section level2">
@@ -127,7 +127,7 @@ The following values are possible for fdata2d class object: "image.contour" (by 
    "Statistical computing in functional data analysis: the R package fda.usc". Journal of Statistical Software 51 (4), 1-28.</p></dd>
 
   <dt></dt>
-<dd><p>Naya, S., Tarrio-Saavedra. J., Lopez- Beceiro, J., Francisco Fernandez, M., Flores, M. and  Artiaga, R. (2014), 
+<dd><p>Naya, S., Tarrio-Saavedra. J., Lopez- Beceiro, J., Francisco Fernandez, M., Flores, M. and  Artiaga, R. (2014),
   "Statistical functional approach for interlaboratory studies with thermal data". Journal of Thermal Analysis and Calorimetry, 118,1229-1243.</p></dd>
 
 
@@ -142,7 +142,7 @@ The following values are possible for fdata2d class object: "image.contour" (by 
 <span class="r-in"><span><span class="va">xlab</span> <span class="op">&lt;-</span> <span class="st">"Temperature/ C"</span></span></span>
 <span class="r-in"><span><span class="va">ylab</span> <span class="op">&lt;-</span> <span class="st">"Mass/ %"</span></span></span>
 <span class="r-in"><span><span class="va">fqcstat</span> <span class="op">&lt;-</span> <span class="fu"><a href="ils.fqcs.html">ils.fqcs</a></span><span class="op">(</span><span class="va">fqcdata</span><span class="op">)</span></span></span>
-<span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">fqcstat</span>, xlab <span class="op">=</span> <span class="va">xlab</span>, ylab <span class="op">=</span> <span class="va">ylab</span>,legend <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> </span></span>
+<span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">fqcstat</span>, xlab <span class="op">=</span> <span class="va">xlab</span>, ylab <span class="op">=</span> <span class="va">ylab</span>,legend <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></span>
 <span class="r-plt img"><img src="plot.ils.fqcs-1.png" alt="" width="700" height="433"></span>
 </code></pre></div>
     </div>

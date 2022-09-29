@@ -87,34 +87,44 @@
     <div class="section level2">
     <h2 id="arguments">Arguments<a class="anchor" aria-label="anchor" href="#arguments"></a></h2>
     <dl><dt>x</dt>
-<dd><p>Functional data object or a list with functional objects</p></dd>
+<dd><p>A object of class <code>lab.qcs</code> (Univariate Quality Control Statistics).</p></dd>
 
 
 <dt>title</dt>
-<dd><p>Main title for the plot</p></dd>
+<dd><p>Main title for the plot.</p></dd>
 
 
 <dt>xlab</dt>
-<dd><p>Title for the x axis</p></dd>
+<dd><p>Title for the x axis.</p></dd>
 
 
 <dt>ylab</dt>
-<dd><p>Title for the y axis</p></dd>
+<dd><p>Title for the y axis.</p></dd>
 
 
 <dt>col</dt>
-<dd><p>Color specifications</p></dd>
+<dd><p>Color specifications.</p></dd>
 
 
 <dt>ylim</dt>
-<dd><p>Numeric vectors of length 2 (coordinates ranges)</p></dd>
+<dd><p>A Numeric vectors of length 2 (coordinates ranges).</p></dd>
 
 
 <dt>...</dt>
-<dd><p>arguments to be passed to or from methods.</p></dd>
+<dd><p>Other arguments to be passed to or from methods.</p></dd>
 
 </dl></div>
 
+    <div class="section level2">
+    <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/mflores72000/ILS/" class="external-link">ILS</a></span><span class="op">)</span></span></span>
+<span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">Glucose</span><span class="op">)</span></span></span>
+<span class="r-in"><span><span class="va">Glucose.qcdata</span> <span class="op">&lt;-</span> <span class="fu"><a href="lab.qcdata.html">lab.qcdata</a></span><span class="op">(</span><span class="va">Glucose</span><span class="op">)</span></span></span>
+<span class="r-in"><span><span class="va">Glucose.qcs</span> <span class="op">&lt;-</span> <span class="fu"><a href="lab.qcs.html">lab.qcs</a></span><span class="op">(</span><span class="va">Glucose.qcdata</span><span class="op">)</span></span></span>
+<span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">Glucose.qcs</span><span class="op">)</span></span></span>
+<span class="r-plt img"><img src="plot.lab.qcs-1.png" alt="" width="700" height="433"></span>
+</code></pre></div>
+    </div>
   </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>
     </nav></aside></div>
 
