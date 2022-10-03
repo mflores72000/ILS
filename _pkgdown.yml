@@ -99,6 +99,9 @@ navbar:
         href: articles/conference_videos.html
       - text: Conference Materials
         href: articles/conference_materials.html
+    - text: Tutorial
+      href: news/index.html
     - text: Changelog
       href: news/index.html
+
 
