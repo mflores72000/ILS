@@ -4,7 +4,7 @@
 \alias{grubbs.test}
 \alias{grubbs.test.default}
 \alias{grubbs.test.lab.qcdata}
-\title{Function to compute the Grubbs test statistic.}
+\title{Function to compute the Grubbs test statistic}
 \usage{
 grubbs.test(x, ...)
 
@@ -22,21 +22,21 @@ grubbs.test(x, ...)
 \method{grubbs.test}{lab.qcdata}(x, alpha = 0.05, ...)
 }
 \arguments{
-\item{x}{an R object (used to select the method). See details.}
+\item{x}{An object of class \code{lab.qcdata} (Univariate Quality Control Data).}
 
-\item{...}{arguments passed to or from methods.}
+\item{...}{Other arguments passed to or from methods.}
 
-\item{var.index}{Scalar with the column number corresponding to the observed variable (the critical to quality variable). 
-Alternatively, a string with the name of a quality variable can be provided.}
+\item{var.index}{A scalar with the column number corresponding to the observed variable (the critical to quality variable).
+Alternativelly can be a string with the name of the quality variable.}
 
-\item{replicate.index}{Scalar with the column number corresponding to the index each replicate.}
+\item{replicate.index}{A scalar with the column number corresponding to the index each replicate.}
 
-\item{material.index}{Scalar corresponding to the replicated number.}
+\item{material.index}{A scalar corresponding to the replicated number.}
 
-\item{laboratory.index}{Scalar that defines the index number of each laboratory.}
+\item{laboratory.index}{A scalar that defines the index number of each laboratory.}
 
-\item{data.name}{String specifying the name of the variable which appears on the plots. 
-If name is not provided, it is retrieved from the object.}
+\item{data.name}{A string specifying the name of the variable which appears on the plots.
+If name is not provided, it is taken from the object given as data.}
 
 \item{alpha}{The significance level (0.05 for default)}
 }

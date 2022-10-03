@@ -4,7 +4,7 @@
 \alias{mandel.fqcs}
 \alias{mandel.fqcs.default}
 \alias{mandel.fqcs.ils.fqcdata}
-\title{This function is used to compute the FDA Mandel's h and k statistic.}
+\title{This function is used to compute the FDA Mandel's h and k statistic}
 \usage{
 mandel.fqcs(x, ...)
 
@@ -30,21 +30,21 @@ mandel.fqcs(x, ...)
 )
 }
 \arguments{
-\item{x}{A (n x m) matrix or data-frame. 
-The m is the number of points observed in each curve, 
-and n is the number of curves for each laboratory.}
+\item{x}{A \code{(n x m)} matrix or data-frame.
+The \code{m} is the number of points observed in each curve,
+and \code{n} is the number of curves for each laboratory.}
 
-\item{...}{Further arguments passed to or from other methods.}
+\item{...}{Other arguments passed to or from other methods.}
 
-\item{p}{the number of laboratories.}
+\item{p}{The number of laboratories.}
 
-\item{index.laboratory}{is the laboratory index. The index.laboratory length should be equal a p}
+\item{index.laboratory}{The laboratory index. The index laboratory length should be equal a \code{p}.}
 
-\item{argvals}{Argvals, by default: 1:m.}
+\item{argvals}{Argvals, by default: \code{1:m}.}
 
-\item{rangeval}{Range of discretization points, by default: range(argvals).}
+\item{rangeval}{The range of discretization points, by default: range(argvals).}
 
-\item{names}{(optional) list with tree components: main an overall title, 
+\item{names}{Optional. A list with tree components: main an overall title,
 xlab title for x axis and ylab title for y axis.}
 
 \item{fdep}{Type of depth measure, by default depth.mode.}

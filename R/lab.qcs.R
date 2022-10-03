@@ -20,8 +20,8 @@
 ##' This function is used to compute the requested statistics to be summarized and ploted.
 ##'
 ## @aliases lab.qcs summary.lab.qcs print.lab.qcs
-##' @param x  Object lab.qcdata (Functional Quality Control Data)
-##' @param ... Arguments passed to or from methods.
+##' @param x  An object of class \code{lab.qcdata} (Univariate Quality Control Data).
+##' @param ... Other arguments passed to or from methods.
 ##' @export
 ##' @examples
 ##'
@@ -84,13 +84,13 @@ return(result)
 
 ##' @rdname lab.qcs
 ##' @method print lab.qcs
-## @param x A \code{lab.qcs} object for which a print is desired.
+##' @param x An object of class \code{lab.qcs} for which a print is desired.
 ##' @export
 print.lab.qcs <- function(x, ...) str(x,1)
 #.........................................................................
 ##' @rdname lab.qcs
 ##' @method summary lab.qcs
-##' @param object A \code{lab.qcs} object for which a summary is desired.
+##' @param object An object of class \code{lab.qcs} for which a summary is desired.
 ##' @export
 summary.lab.qcs <- function(object, ...)
   #.........................................................................
@@ -146,7 +146,7 @@ summary.lab.qcs <- function(object, ...)
 ##' Function to estimate the univariate Mandel's  h statistic
 ##'
 ##' This function is used to compute the Mandel's h statistic.
-##' @param x   R object (used to select the method). See details.
+##' @param x   An object of class \code{lab.qcdata} (Univariate Quality Control Data).
 ##' @export
 ##' @references
 ##' \describe{
@@ -173,7 +173,7 @@ h.qcs <- function(x, ...) {
 ##' @method h.qcs default
 ##' @inheritParams lab.qcdata
 ##' @param alpha The significance level (0.05 by default)
-##' @param ... Arguments passed to or from methods.
+##' @param ... Other arguments passed to or from methods.
 h.qcs.default <- function(x, var.index=1,replicate.index  =  2, material.index  =  3,
                           laboratory.index=4,  data.name = NULL, alpha = 0.05, ...)
   {
@@ -240,7 +240,7 @@ h.qcs.lab.qcdata <- function(x, alpha = 0.05, ...)
 ##' Function to calcute the Mandel's k statistic
 ##'
 ##' This function is used to compute the statistic k of Mandel.
-##' @param x   an R object (used to select the method). See details.
+##' @param x   An object of class \code{lab.qcdata} (Univariate Quality Control Data).
 ##' @export
 ##' @references
 ##' \describe{
@@ -266,7 +266,7 @@ k.qcs <- function(x, ...) {
 ##' @method k.qcs default
 ##' @inheritParams lab.qcdata
 ##' @param alpha The significance level (0.05 by default)
-##' @param ... arguments passed to or from methods.
+##' @param ... Other arguments passed to or from methods.
 k.qcs.default <- function(x, var.index=1,replicate.index  =  2, material.index  =  3,
                           laboratory.index=4,  data.name = NULL, alpha = 0.05, ...)
 {
@@ -329,10 +329,10 @@ k.qcs.lab.qcdata<- function(x, alpha = 0.05, ...)
 #-------------------------------------------------------------------------
 # Cochran Test Statistic
 #-------------------------------------------------------------------------
-##' Function to compute the Cochran test statistic.
+##' Function to compute the Cochran test statistic
 ##'
 ##' Function to estimate the Cochran test statistic.
-##' @param x   R object (used to select the method). See details.
+##' @param x   An object of class \code{lab.qcdata} (Univariate Quality Control Data).
 ##' @export
 ##' @references
 ##' \describe{
@@ -356,7 +356,7 @@ cochran.test <- function(x, ...) {
 ##' @method cochran.test default
 ##' @inheritParams lab.qcdata
 ##' @param alpha The significance level (0.05 by default)
-##' @param ... Arguments passed to or from methods.
+##' @param ... Other arguments passed to or from methods.
 cochran.test.default <- function(x, var.index=1,replicate.index  =  2, material.index  =  3,
                           laboratory.index=4,  data.name = NULL, alpha = 0.05, ...)
 {
@@ -429,10 +429,10 @@ print.cochran.test <- function(x, ...) {
 #-------------------------------------------------------------------------
 # Grubbs Test Statistic
 #-------------------------------------------------------------------------
-##' Function to compute the Grubbs test statistic.
+##' Function to compute the Grubbs test statistic
 ##'
 ##' Function to estimate the Grubbs test statistic.
-##' @param x   an R object (used to select the method). See details.
+##' @param x   An object of class \code{lab.qcdata} (Univariate Quality Control Data).
 ##' @export
 ##' @references
 ##' \describe{
@@ -456,7 +456,7 @@ grubbs.test <- function(x, ...) {
 ##' @method grubbs.test default
 ##' @inheritParams lab.qcdata
 ##' @param alpha The significance level (0.05 for default)
-##' @param ... arguments passed to or from methods.
+##' @param ... Other arguments passed to or from methods.
 grubbs.test.default <- function(x, var.index=1,replicate.index  =  2, material.index  =  3,
                           laboratory.index=4,  data.name = NULL, alpha = 0.05, ...)
 {
@@ -545,7 +545,7 @@ print.grubbs.test <- function(x, ...) {
 ##' Function to compute the AOV
 ##'
 ##' Function to compute the analysis of variance of ILS data, taking into account the laboratories and material factors.
-##' @param x Object lab.qcdata.
+##' @param x An object of class \code{lab.qcdata} (Univariate Quality Control Data).
 ##' @export
 ##' @references
 ##' \describe{
@@ -568,12 +568,12 @@ lab.aov <- function(x, ...) {
 ##' @rdname lab.aov
 ##' @method lab.aov default
 ##' @inheritParams lab.qcdata
-##' @param level Requested confidence level (0.95 by default)
+##' @param level Requested confidence level (0.95 by default).
 ##' @param plot  If TRUE, confidence intervals are plot.
 ##' @param pages By default 0, it indicates the number of pages over which to spread the output. For example,
 ##' if pages=1,  all terms will be plotted on one page with the layout performed automatically.
 ##'  If pages=0, one plot will be displayed by each tested material.
-##' @param ... Arguments passed to or from methods.
+##' @param ... Other arguments passed to or from methods.
 lab.aov.default <- function(x, var.index=1,replicate.index  =  2, material.index  =  3,
                           laboratory.index=4,  data.name = NULL, level = 0.95,plot = FALSE, pages = 0, ...)
 {
