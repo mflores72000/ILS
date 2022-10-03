@@ -8,6 +8,9 @@
 5 x 1000 x 6 dimension array, where each matrix consists of the 15 DSC curves obtained by testing 15 different oxalate
 samples, and evaluated at 1000 different temperature values. These 15 curves were obtained for each of the 6 laboratories that
 performed the experiments.
+\describe{
+  \item{Xi}{Differential Scanning Calorimetry curves.}
+}
 }
 \description{
 90 samples of calcium oxalate were analyzed by differential scanning calorimetry technique (DSC),

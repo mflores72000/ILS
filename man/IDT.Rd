@@ -7,6 +7,12 @@
 \format{
 Dataframe of dimension 105 x 44. The first column corresponds to IDT variable, the second (Sample) is the replicate number,
  the third is the tested material (Material), and fourth is the laboratory.
+\describe{
+  \item{IDT}{Initial decomposition temperature.}
+  \item{Sample}{The replicate number.}
+  \item{Run}{tested material.}
+  \item{Laboratory}{Laboratories conducted tests.}
+}
 }
 \description{
 Initial decomposition temperature (IDT) is a parameter defined by temperature at which a material loss 5\% of its weight

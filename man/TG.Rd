@@ -7,6 +7,9 @@
 \format{
 A 15 x 1000 x 7 dimension array ,  where each matrix consists of the 15 TG curves obtained testing 15 different oxalate samples,
 and evaluated in 1000 different values of temperature. These 15 curves were obtained for each of the overall 7 laboratories that have performed the esperiments.
+\describe{
+  \item{Vi}{Thermogravimetric.}
+}
 }
 \description{
 One hundred and five Calcium oxalate samples were tested by thermogravimetric (TG) analysis,

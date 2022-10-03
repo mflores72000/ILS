@@ -120,3 +120,6 @@ plot(mandel.dsc,legend = F,col=c(rep(3,4),1,3))
 <br>
 
 <p style="text-align:justify;">Interlaboratory Study defined by the `DSC` dataset. Thus, Figure 8 shows that repeatability hypothesis was not reject. Otherwise, the reproducibility’s hypothesis was rejected in the case of laboratory 6 (see Figure 8), that is properly detected as an outlier.</p>
+
+
+

@@ -7,10 +7,10 @@
 \format{
 A data frame with 120 observations composed of the following 4 variables:
 \describe{
-  \item{Glucose}{Glucose content in Serum}
-  \item{Replicate}{Number of glucose measurement corresponding to each material}
+  \item{Glucose}{Glucose content in Serum.}
+  \item{Replicate}{Number of glucose measurement corresponding to each material.}
   \item{Material}{Level of glucose, ranging from low content of sugar to very high level of glucose in blood.}
-  \item{Laboratory}{Laboratories conducted tests}
+  \item{Laboratory}{Laboratories conducted tests.}
 }
 }
 \description{

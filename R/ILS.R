@@ -36,10 +36,10 @@ NULL
 ##' @docType data
 ##' @format A data frame with 120 observations composed of the following 4 variables:
 ##' \describe{
-##'   \item{Glucose}{Glucose content in Serum}
-##'   \item{Replicate}{Number of glucose measurement corresponding to each material}
+##'   \item{Glucose}{Glucose content in Serum.}
+##'   \item{Replicate}{Number of glucose measurement corresponding to each material.}
 ##'   \item{Material}{Level of glucose, ranging from low content of sugar to very high level of glucose in blood.}
-##'   \item{Laboratory}{Laboratories conducted tests}
+##'   \item{Laboratory}{Laboratories conducted tests.}
 ##' }
 ##' @keywords datasets
 ##'
@@ -77,6 +77,12 @@ NULL
 ##'
 ##' @format Dataframe of dimension 105 x 44. The first column corresponds to IDT variable, the second (Sample) is the replicate number,
 ##'  the third is the tested material (Material), and fourth is the laboratory.
+##' \describe{
+##'   \item{IDT}{Initial decomposition temperature.}
+##'   \item{Sample}{The replicate number.}
+##'   \item{Run}{tested material.}
+##'   \item{Laboratory}{Laboratories conducted tests.}
+##' }
 ##'
 ##' @references
 ##' \describe{
@@ -112,6 +118,9 @@ NULL
 ##'
 ##' @format A 15 x 1000 x 7 dimension array ,  where each matrix consists of the 15 TG curves obtained testing 15 different oxalate samples,
 ##' and evaluated in 1000 different values of temperature. These 15 curves were obtained for each of the overall 7 laboratories that have performed the esperiments.
+##' \describe{
+##'   \item{Vi}{Thermogravimetric.}
+##' }
 ##'
 ##' @references
 ##' \describe{
@@ -143,6 +152,9 @@ NULL
 ##' @format 5 x 1000 x 6 dimension array, where each matrix consists of the 15 DSC curves obtained by testing 15 different oxalate
 ##' samples, and evaluated at 1000 different temperature values. These 15 curves were obtained for each of the 6 laboratories that
 ##' performed the experiments.
+##' \describe{
+##'   \item{Xi}{Differential Scanning Calorimetry curves.}
+##' }
 ##'
 ##' @references
 ##' \describe{
