@@ -35,7 +35,7 @@ knitr::opts_chunk$set(
 <p style="text-align:justify;">The methodology used to detect laboratories that provide inconsistent results, working simultaneously with different test materials, from the perspective of Univariate Data Analysis and Functional Data Analysis (FDA), can be found in the articles presented.</p>
 
 
-# `r colorize("Functional extensions of Mandel's h and k statistics for outlier detection in interlaboratory studies","#1CA666")`
+
 
 <object data="Articles/ArticuloMiguelFlores.pdf" width=775, height=550></object>
 

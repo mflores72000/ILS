@@ -89,6 +89,8 @@ navbar:
         href: articles/FDA.html
     - text: Scientific Articles
       menu:
+      - text: Articles
+        href: articles/Articles.html
       - text: Thesis
         href: articles/Thesis.html
     - text: Conferences
