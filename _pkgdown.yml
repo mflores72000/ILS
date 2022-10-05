@@ -90,7 +90,7 @@ navbar:
     - text: Scientific Articles
       menu:
       - text: Articles
-        href: articles/Articles.html
+        href: articles/Article.html
       - text: Thesis
         href: articles/Thesis.html
     - text: Conferences
