@@ -103,7 +103,7 @@ navbar:
       menu:
       - text: Create a new R package
         href: articles/Newpackages.html
-      - text: Create a buil site
+      - text: Create a web site
         href: articles/BuilSite.html
     - text: Changelog
       href: news/index.html
