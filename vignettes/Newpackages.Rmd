@@ -1,0 +1,118 @@
+---
+title: "Steps to create a new R packages"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Steps to create a new R packages}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r include=FALSE}
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color,
+      x)
+  } else x
+}
+```
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  dev = "png",
+  dpi = 150,
+  fig.asp = 1,
+  fig.width = 7,
+  fig.height = 5,
+  out.width = "100%",
+  out.height = "70%",
+  fig.align = "center",
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+<br>
+
+<p style="text-align:justify;"> This section shows in detail how to create a new package in the statistical software R Studio. Starting with a presentation, followed by a script in R code detailing the steps in an understandable way and finally a video tutorial on how to create a new package with simple functions and with all the suggestions given for its creation.</p>
+
+<br>
+
+# `r colorize("Presentation of the creation of a new R package","#1CA666")`
+
+<object data="Tutorial/RPackage.pdf" width=775, height=550></object>
+
+<br>
+
+# `r colorize("Step-by-step package creation code","#1CA666")`
+
+```{r eval=FALSE}
+# --------------------------------------------------------------------------------------------------
+# PASOS PARA CREAR UN PAQUETE EN R STUDIOS
+# --------------------------------------------------------------------------------------------------
+
+# 1) INSTALAR EL PAQUETE DEVTOLLS Y tAMBIEN USETHIS Y LLAMAR A LAS LIBRERIA 
+
+install.packages("devtolls")
+library(devtools)
+
+install.packages("usethis")
+library(usethis)
+
+# 2) CREAMOS NUESTRO PAQUETE USANDO LA FUNCION create_package(), especificando la dirección y el  
+#    nombre con el cual se desea que se cree el proyecto
+
+usethis::create_package("C:/Users/Usuario01/Documents/Pasantes/Jonathan_Pallasco/Nuevo")
+
+# Se nos crea un nuevo proyecto con 6 archivos 
+# .Rbuildignore : Enumera los archivos que debemos tener pero que no deben incluirse al 
+#                 compilar el paquete R desde el c ́odigo fuente.
+# .gitignore: Anticipa el uso de Git e ignora algunos archivos est ́andar detr ́as de escena
+#             creados por R y RStudio. Incluso si no planea usar Git, esto es inofensivo.
+# DESCRIPTION: Proporciona metadatos sobre su paquete.
+# NAMESPACE: Declara las funciones que su paquete exporta para uso externo y las funciones 
+#            externas que su paquete importa de otros paquetes.
+# directorio R: Es el extremo comercial de su paquete.
+# Nuevo.Rproj: Es el archivo que convierte a este directorio en un proyecto de R Studio.
+
+
+
+# 3) El directorio Nombre paquete es un paquete de R y un proyecto RStudio. Ahora se debe 
+#    convertir en un repositorio Git, usando la funcion use git(). Cabe recalcar que, use git() 
+#    funciona en cualquier proyecto, independientemente de si es un paquete R.
+
+usethis::use_git()
+
+# 4) Escribe la primera funci ́on: Toda funcion esta en un archivo .R (Nombre Funcion.R), y se va a
+#    encontrar almacenada en la carpeta R/ del proyecto. La funci ́on use_r() del paquete usethis,
+#    crea y/o abre un script en la carpeta R con el nombre que le asignemos. 
+
+usethis::use_r("funcion_suma")
+
+# Se nos abre un scrip en la carpeta R, llamado funcion_suma.R, y empezamos a crear una función 
+# simple, de tal manera que tenga como entrada 2 numero y retorne la suma de los mismos.
+
+# 5) Una vez, creada una funcion simple, debemos llamar a todas las funciones, para poner a 
+#    funcion_suma a disposici ́on para la experimentaci ́on, utilizando la funcion load all() del paquete devtools
+
+devtools::load_all('.')
+función_suma(10,200)
+función_suma(5,3)
+
+# Tenemos evidencia emp ́ırica informal que la funci ́on funcion_suma() funciona correctamente. Pero, ¿c ́o
+# mo podemos estar seguros de que todas las partes m ́oviles del paquete Nuevo() todav ́ıa funcionan?.
+
+
+# 6) Usar la funci ́on check() del paquete devtools es una forma conveniente de verificar que las
+#    partes moviles del paquete funcionen sin salir de su sesi ́on R.
+
+devtools::check()
+
+```
+
+<br>
+
+# `r colorize("Tutorial","#1CA666")`
+
+

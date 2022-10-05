@@ -1,0 +1,19 @@
+---
+title: "Steps to create a web site of a R package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Steps to create a web site of a R package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(ILS)
+```
