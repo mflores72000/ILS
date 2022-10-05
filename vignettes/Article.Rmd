@@ -24,18 +24,7 @@ colorize <- function(x, color) {
   } else x
 }
 ```
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  dev = "png",
-  dpi = 150,
-  fig.asp = 0.618,
-  fig.width = 5,
-  out.width = "60%",
-  fig.align = "center",
-  collapse = TRUE,
-  comment = "#>"
-)
-```
+
 <br>
 
 <p style="text-align:justify;">The methodology used to detect laboratories that provide inconsistent results, working simultaneously with different test materials, from the perspective of Univariate Data Analysis and Functional Data Analysis (FDA), can be found in the articles presented.</p>
