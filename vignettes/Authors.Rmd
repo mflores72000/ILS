@@ -49,6 +49,10 @@ __Full-time Professor (EPN)__
 | __Lines of research__| Añadir |
 | __Contact__| <a href=https://math.epn.edu.ec/index.php/9-miembros/33-flores-sanchez-miguel-alfonso> EPN Directory </a> |
       
+|   |   |   |
+|:----------------|:----------------:|----------------:|
+| <a href=https://orcid.org/0000-0002-7742-1247>![](../man/figures/ORCIDMF.PNG){} </a>|<a href=https://publons.com/wos-op/a/AAS-6620-2020> ![](../man/figures/ResearchMF.PNG){}</a>|<a href=https://www.scopus.com/authid/detail.uri?authorId=36811864000> ![](../man/figures/ScopusMF.PNG){}</a>|       
+
 $\rule{20.5cm}{0.1cm}$
 
 ## `r colorize("Biography","#1CA666")`
