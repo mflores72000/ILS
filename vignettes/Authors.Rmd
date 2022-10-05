@@ -27,8 +27,6 @@ knitr::opts_chunk$set(
 
 <p style="text-align:justify;"> The bibliography of the authors who contributed to the development of the package that performs interlaboratory studies (ILS), with univariate and functional data, is presented below.</p>
 
-Labibliografia de los authores
-
 <br>
 
 # `r colorize("Dr. Miguel Alfonso Flores","#1CA666")`

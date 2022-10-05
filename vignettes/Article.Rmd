@@ -7,4 +7,116 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
+```{r include=FALSE}
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color,
+      x)
+  } else x
+}
+```
 
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+
+<br>
+
+<p style="text-align:justify;">The methodology used to detect laboratories that provide inconsistent results, working simultaneously with different test materials, from the perspective of Univariate Data Analysis and Functional Data Analysis (FDA), can be found in the articles presented.</p>
+
+
+Dr. Miguel Flores
+
+<object data="Articles/ArticuloMiguelFlores.pdf" width=775, height=550></object>
+
+<br>
+
+### `r colorize("Cite","#1CA666")`
+
+<p style="text-align:justify;"> Flores, M., Tarrio-Saavedra, J., Fernandez-Casal, R., & Naya, S. (2018). Functional extensions of Mandel's h and k statistics for outlier detection in interlaboratory studies. Chemometrics and Intelligent Laboratory Systems, 176, 134-148. [DOI](https://doi.org/10.1016/j.chemolab.2018.03.016)</p>
+
+```{r eval=FALSE}
+@article{flores2018functional,
+  title={Functional extensions of Mandel's h and k statistics for outlier detection in interlaboratory studies},
+  author={Flores, Miguel and Tarrio-Saavedra, Javier and Fernandez-Casal, Ruben and Naya, Salvador},
+  journal={Chemometrics and Intelligent Laboratory Systems},
+  volume={176},
+  pages={134--148},
+  year={2018},
+  publisher={Elsevier}
+}
+```
+
+# `r colorize("An R package for statistical analysis in Interlaboratory Studies","#1CA666")`
+
+<object data="Articles/ILSarticle.pdf" width=775, height=550></object>
+
+<br>
+
+### `r colorize("Cite","#1CA666")`
+
+<p style="text-align:justify;"> Flores, M., Fernández-Casal, R., Naya, S., Tarrío-Saavedra, J., & Bossano, R. (2018). ILS: An R package for statistical analysis in Interlaboratory Studies. Chemometrics and Intelligent Laboratory Systems, 181, 11-20. [DOI](https://doi.org/10.1016/j.chemolab.2018.07.013)</p>
+
+```{r eval=FALSE}
+@article{flores2018ils,
+  title={ILS: An R package for statistical analysis in Interlaboratory Studies},
+  author={Flores, Miguel and Fern{\'a}ndez-Casal, Rub{\'e}n and Naya, Salvador and Tarr{\'\i}o-Saavedra, Javier and Bossano, Roberto},
+  journal={Chemometrics and Intelligent Laboratory Systems},
+  volume={181},
+  pages={11--20},
+  year={2018},
+  publisher={Elsevier}
+}
+```
+
+# `r colorize("Statistical functional approach for interlaboratory studies with thermal data","#1CA666")`
+
+<object data="Articles/(2014) JCR Statistical functional approach for interlaboratory studies with thermal data.pdf" width=775, height=550></object>
+
+<br>
+
+### `r colorize("Cite","#1CA666")`
+
+<p style="text-align:justify;"> Naya, S., Tarrío-Saavedra, J., López-Beceiro, J., Francisco-Fernández, M., Flores, M., & Artiaga, R. (2014). Statistical functional approach for interlaboratory studies with thermal data. Journal of Thermal Analysis and Calorimetry, 118(2), 1229-1243. [DOI](https://doi.org/10.1007/s10973-014-4039-1)</p>
+
+```{r eval=FALSE}
+@article{naya2014statistical,
+  title={Statistical functional approach for interlaboratory studies with thermal data},
+  author={Naya, Salvador and Tarr{\'\i}o-Saavedra, Javier and L{\'o}pez-Beceiro, Jorge and Francisco-Fern{\'a}ndez, Mario and Flores, Miguel and Artiaga, Ram{\'o}n},
+  journal={Journal of Thermal Analysis and Calorimetry},
+  volume={118},
+  number={2},
+  pages={1229--1243},
+  year={2014},
+  publisher={Springer}
+}
+```
+
+# `r colorize("Robust bootstrapped Mandel's h and k statistics for outlier detection in interlaboratory studies","#1CA666")`
+
+<object data="Articles/(2021) Robust bootstraped Mandel h and k statistics.pdf" width=775, height=550></object>
+
+<br>
+
+### `r colorize("Cite","#1CA666")`
+
+<p style="text-align:justify;"> Flores, M., Moreno, G., Solórzano, C., Naya, S., & Tarrío-Saavedra, J. (2021). Robust bootstrapped Mandel's h and k statistics for outlier detection in interlaboratory studies. Chemometrics and Intelligent Laboratory Systems, 219, 104429. [DOI](https://doi.org/10.1016/j.chemolab.2021.104429)</p>
+
+```{r eval=FALSE}
+@article{flores2021robust,
+  title={Robust bootstrapped Mandel's h and k statistics for outlier detection in interlaboratory studies},
+  author={Flores, Miguel and Moreno, G{\'e}nesis and Sol{\'o}rzano, Cristian and Naya, Salvador and Tarr{\'\i}o-Saavedra, Javier},
+  journal={Chemometrics and Intelligent Laboratory Systems},
+  volume={219},
+  pages={104429},
+  year={2021},
+  publisher={Elsevier}
+}
+```
