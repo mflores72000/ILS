@@ -10,7 +10,7 @@ Dataframe of dimension 105 x 44. The first column corresponds to IDT variable, t
 \describe{
   \item{IDT}{Initial decomposition temperature.}
   \item{Sample}{The replicate number.}
-  \item{Run}{tested material.}
+  \item{Run}{Tested material.}
   \item{Laboratory}{Laboratories conducted tests.}
 }
 }

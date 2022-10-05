@@ -57,7 +57,7 @@ knitr::opts_chunk$set(
 
 
 # ------------------------------------------------------------------------------
-# 1) Instalar los paquetes devtolls y usethis y llamar a las librerias 
+# 1) Instalar los paquetes devtolls y usethis, para luego llamar a las librerias 
 # ------------------------------------------------------------------------------
 
 install.packages("devtolls")
