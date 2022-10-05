@@ -2,7 +2,7 @@ pandoc: 2.14.2
 pkgdown: 2.0.6
 pkgdown_sha: ~
 articles:
-  Articles: Articles.html
+  Article: Article.html
   Authors: Authors.html
   BuilSite: BuilSite.html
   FDA: FDA.html
@@ -12,7 +12,7 @@ articles:
   conference_materials: conference_materials.html
   conference_videos: conference_videos.html
   univariantes: univariantes.html
-last_built: 2022-10-05T22:50Z
+last_built: 2022-10-05T22:59Z
 urls:
   reference: https://mflores72000.github.io/ILS/reference
   article: https://mflores72000.github.io/ILS/articles
