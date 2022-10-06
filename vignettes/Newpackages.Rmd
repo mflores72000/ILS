@@ -149,6 +149,8 @@ devtools::check()
 
 __Nota:__ El manual aun se esta creando
 
+Amanecer comprobando 
+
 <br>
 
 
