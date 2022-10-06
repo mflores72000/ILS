@@ -145,4 +145,4 @@ devtools::check()
 
 # `r colorize("Tutorial","#1CA666")`
 
-
+# `r colorize("Manual para crear un paquete R con RStudio","#1CA666")`
