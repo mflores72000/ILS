@@ -99,12 +99,6 @@ navbar:
         href: articles/conference_videos.html
       - text: Conference Materials
         href: articles/conference_materials.html
-    - text: Tutorial
-      menu:
-      - text: Create a new R package
-        href: articles/Newpackages.html
-      - text: Create a web site
-        href: articles/BuilSite.html
     - text: Changelog
       href: news/index.html
 
