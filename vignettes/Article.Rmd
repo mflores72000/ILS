@@ -78,7 +78,7 @@ knitr::opts_chunk$set(
 
 # `r colorize("Statistical functional approach for interlaboratory studies with thermal data","#1CA666")`
 
-<object data="Articles/(2014) JCR Statistical functional approach for interlaboratory studies with thermal data.pdf" width=775, height=550></object>
+<object data="Articles/Statistical_functional.pdf" width=775, height=550></object>
 
 <br>
 
@@ -101,7 +101,7 @@ knitr::opts_chunk$set(
 
 # `r colorize("Robust bootstrapped Mandel's h and k statistics for outlier detection in interlaboratory studies","#1CA666")`
 
-<object data="Articles/(2021) Robust bootstraped Mandel h and k statistics.pdf" width=775, height=550></object>
+<object data="Articles/Mandel.pdf" width=775, height=550></object>
 
 <br>
 

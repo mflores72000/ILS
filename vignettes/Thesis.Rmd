@@ -72,7 +72,7 @@ knitr::opts_chunk$set(
 
 <br>
 
-<object data="Thesis/génesis_moreno_y_cristian_solórzano_-_trabajo_con_correciones.pdf" width=775, height=550></object>
+<object data="Thesis/genesis_cristian.pdf" width=775, height=550></object>
 
 <br>
 

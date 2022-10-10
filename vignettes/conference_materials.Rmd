@@ -47,5 +47,5 @@ knitr::opts_chunk$set(
 
 <br>
 
-<object data="conference_materials/control_estadistico_de_la_calidad_mediante_las_librerias_qcr_ils_y_fda.qc.pdf" width=775, height=550></object>
+<object data="conference_materials/control_estadistico.pdf" width=775, height=550></object>
 
