@@ -34,13 +34,15 @@ knitr::opts_chunk$set(
 
 <br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mhUJh5Wz2X8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="775" height="550"  src="https://www.youtube.com/embed/mhUJh5Wz2X8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 
 
 # `r colorize("Salvador Naya Fernández | De Galicia a Ecuador. Ida e volta con R.","#1CA666")`
 
+<br>
 
+<iframe width="775" height="550" src="https://www.youtube.com/embed/-x7Kj6D141g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+<br>
