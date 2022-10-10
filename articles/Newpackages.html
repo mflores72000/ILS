@@ -134,112 +134,19 @@ This section shows in detail how to create a new package in the statistical soft
 <p><br></p>
 </div>
 <div class="section level2">
-<h2 id="step-by-step-package-creation-code">
-<span style="color: #1CA666;">Step-by-step package creation code</span><a class="anchor" aria-label="anchor" href="#step-by-step-package-creation-code"></a>
+<h2 id="manual-to-create-a-new-r-package-">
+<span style="color: #1CA666;">Manual to create a new R package.</span><a class="anchor" aria-label="anchor" href="#manual-to-create-a-new-r-package-"></a>
 </h2>
-<p><br></p>
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span></span>
-<span><span class="co"># ------------------------------------------------------------------------------</span></span>
-<span><span class="co">#               PASOS PARA CREAR UN PAQUETE EN R STUDIOS</span></span>
-<span><span class="co"># ------------------------------------------------------------------------------</span></span>
-<span></span>
-<span></span>
-<span><span class="co"># ------------------------------------------------------------------------------</span></span>
-<span><span class="co"># 1) Instalar los paquetes devtolls y usethis, para luego llamar a las librerias </span></span>
-<span><span class="co"># ------------------------------------------------------------------------------</span></span>
-<span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"devtolls"</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"usethis"</span><span class="op">)</span></span>
-<span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://usethis.r-lib.org" class="external-link">usethis</a></span><span class="op">)</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://devtools.r-lib.org/" class="external-link">devtools</a></span><span class="op">)</span></span>
-<span></span>
-<span></span>
-<span><span class="co"># ------------------------------------------------------------------------------</span></span>
-<span><span class="co"># 2) Creamos el nuevo paquete usando la función "create_package()", especifican-</span></span>
-<span><span class="co">#    do la dirección junto con el nombre del paquete con el que se desea crear </span></span>
-<span><span class="co">#   el proyecto.</span></span>
-<span><span class="co"># ------------------------------------------------------------------------------</span></span>
-<span></span>
-<span><span class="fu">usethis</span><span class="fu">::</span><span class="fu">create_package</span><span class="op">(</span><span class="st">"C:/Users/Usuario01/Documents/Pasantes/Jonathan_Pallasco</span></span>
-<span><span class="st">                        /Nuevo"</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># Se nos crea un nuevo proyecto con 6 archivos de los cuales se nombran a </span></span>
-<span><span class="co"># continuación  </span></span>
-<span><span class="co">#     1)   .Rbuildignore </span></span>
-<span><span class="co">#     2)   .gitignore </span></span>
-<span><span class="co">#     3)   DESCRIPTION </span></span>
-<span><span class="co">#     4)   NAMESPACE </span></span>
-<span><span class="co">#     5)   Directorio R </span></span>
-<span><span class="co">#     6)   Nuevo.Rproj </span></span>
-<span></span>
-<span></span>
-<span><span class="co"># ------------------------------------------------------------------------------</span></span>
-<span><span class="co"># 3) El directorio creado ("Nuevo"), es un paquete de R y un proyecto RStudio. </span></span>
-<span><span class="co">#    Ahora se debeconvertir en un repositorio Git, usando la funcion use git(). </span></span>
-<span><span class="co">#    Cabe recalcar que, use git() funciona en cualquier proyecto, </span></span>
-<span><span class="co">#    independientemente de si es un paquete R.</span></span>
-<span><span class="co"># ------------------------------------------------------------------------------</span></span>
-<span></span>
-<span><span class="fu">usethis</span><span class="fu">::</span><span class="fu">use_git</span><span class="op">(</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># ------------------------------------------------------------------------------</span></span>
-<span><span class="co"># 4) Escribir la primera función: Toda funcion esta en un archivo .R </span></span>
-<span><span class="co">#    (Nombre_Funcion.R), y se va a encontrar almacenada en la carpeta R/ del </span></span>
-<span><span class="co">#    proyecto. La funci ́on use_r() del paquete usethis,crea y/o abre un script </span></span>
-<span><span class="co">#    en la carpeta R con el nombre que le asignemos. </span></span>
-<span><span class="co"># ------------------------------------------------------------------------------</span></span>
-<span></span>
-<span><span class="fu">usethis</span><span class="fu">::</span><span class="fu">use_r</span><span class="op">(</span><span class="st">"funcion_suma"</span><span class="op">)</span></span>
-<span></span>
-<span></span>
-<span><span class="co"># Se nos abre un scrip en la carpeta R, llamado funcion_suma.R, y empezamos a </span></span>
-<span><span class="co"># crear una función simple, de tal manera que tenga como entrada 2 numero y </span></span>
-<span><span class="co"># retorne la suma de los mismos.</span></span>
-<span></span>
-<span><span class="va">funcion_suma</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">a</span>,<span class="va">b</span><span class="op">)</span><span class="op">{</span></span>
-<span>  <span class="va">suma</span> <span class="op">&lt;-</span> <span class="va">a</span> <span class="op">+</span> <span class="va">b</span></span>
-<span>  <span class="kw"><a href="https://rdrr.io/r/base/function.html" class="external-link">return</a></span><span class="op">(</span><span class="va">suma</span><span class="op">)</span></span>
-<span><span class="op">}</span></span>
-<span></span>
-<span></span>
-<span><span class="co"># ------------------------------------------------------------------------------</span></span>
-<span><span class="co"># 5) Una vez, creada una funcion simple, debemos llamar a todas las funciones, </span></span>
-<span><span class="co">#    para poner a "funcion_suma"  a dispocición la experimentación, utilizando </span></span>
-<span><span class="co">#    la funcion "load_all('.')" del paquete devtools</span></span>
-<span><span class="co"># ------------------------------------------------------------------------------</span></span>
-<span></span>
-<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">load_all</span><span class="op">(</span><span class="st">'.'</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># Comprobación del funcionamiento de la funcion "funcion_suma"</span></span>
-<span></span>
-<span><span class="fu">funcion_suma</span><span class="op">(</span><span class="fl">10</span>,<span class="fl">200</span><span class="op">)</span></span>
-<span><span class="fu">funcion_suma</span><span class="op">(</span><span class="fl">5</span>,<span class="fl">3</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># Tenemos evidencia empírica informal, que la función "funcion_suma()", funciona </span></span>
-<span><span class="co"># correctamente. Pero para asegurar que todas las partes móviles del nuevo </span></span>
-<span><span class="co"># paquete funcionan?.</span></span>
-<span></span>
-<span><span class="co"># ------------------------------------------------------------------------------</span></span>
-<span><span class="co"># 6) Usar la función check() del paquete devtools es una forma conveniente de </span></span>
-<span><span class="co">#    verificar que las partes móviles funcione sin salir de la sección R.</span></span>
-<span><span class="co"># ------------------------------------------------------------------------------</span></span>
-<span></span>
-<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">check</span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
+<object data="Tutorial/EPN_Manual_crear_paquete.pdf" width="775," height="550">
+</object>
 <p><br></p>
 </div>
 <div class="section level2">
-<h2 id="tutorial">
-<span style="color: #1CA666;">Tutorial</span><a class="anchor" aria-label="anchor" href="#tutorial"></a>
+<h2 id="scrip-to-create-a-new-r-package-">
+<span style="color: #1CA666;">Scrip to create a new R package.</span><a class="anchor" aria-label="anchor" href="#scrip-to-create-a-new-r-package-"></a>
 </h2>
-</div>
-<div class="section level2">
-<h2 id="manual-para-crear-un-paquete-r-con-rstudio">
-<span style="color: #1CA666;">Manual para crear un paquete R con RStudio</span><a class="anchor" aria-label="anchor" href="#manual-para-crear-un-paquete-r-con-rstudio"></a>
-</h2>
-<p><strong>Nota:</strong> El manual aun se esta creando</p>
-<p>Amanecer comprobando</p>
+<object data="Tutorial/ScripNuevoPaquete.pdf" width="775," height="550">
+</object>
 <p><br></p>
 </div>
   </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>
