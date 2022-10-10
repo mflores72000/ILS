@@ -45,111 +45,15 @@ knitr::opts_chunk$set(
 
 <br>
 
-# `r colorize("Step-by-step package creation code","#1CA666")`
+# `r colorize("Manual to create a new R package.","#1CA666")`
+
+<object data="Tutorial/EPN_Manual_crear_paquete.pdf" width=775, height=550></object>
 
 <br>
 
-```{r eval=FALSE}
+# `r colorize("Scrip to create a new R package.","#1CA666")`
 
-# ------------------------------------------------------------------------------
-#               PASOS PARA CREAR UN PAQUETE EN R STUDIOS
-# ------------------------------------------------------------------------------
-
-
-# ------------------------------------------------------------------------------
-# 1) Instalar los paquetes devtolls y usethis, para luego llamar a las librerias 
-# ------------------------------------------------------------------------------
-
-install.packages("devtolls")
-install.packages("usethis")
-
-library(usethis)
-library(devtools)
-
-
-# ------------------------------------------------------------------------------
-# 2) Creamos el nuevo paquete usando la función "create_package()", especifican-
-#    do la dirección junto con el nombre del paquete con el que se desea crear 
-#   el proyecto.
-# ------------------------------------------------------------------------------
-
-usethis::create_package("C:/Users/Usuario01/Documents/Pasantes/Jonathan_Pallasco
-                        /Nuevo")
-
-# Se nos crea un nuevo proyecto con 6 archivos de los cuales se nombran a 
-# continuación  
-#     1)   .Rbuildignore 
-#     2)   .gitignore 
-#     3)   DESCRIPTION 
-#     4)   NAMESPACE 
-#     5)   Directorio R 
-#     6)   Nuevo.Rproj 
-
-
-# ------------------------------------------------------------------------------
-# 3) El directorio creado ("Nuevo"), es un paquete de R y un proyecto RStudio. 
-#    Ahora se debeconvertir en un repositorio Git, usando la funcion use git(). 
-#    Cabe recalcar que, use git() funciona en cualquier proyecto, 
-#    independientemente de si es un paquete R.
-# ------------------------------------------------------------------------------
-
-usethis::use_git()
-
-# ------------------------------------------------------------------------------
-# 4) Escribir la primera función: Toda funcion esta en un archivo .R 
-#    (Nombre_Funcion.R), y se va a encontrar almacenada en la carpeta R/ del 
-#    proyecto. La funci ́on use_r() del paquete usethis,crea y/o abre un script 
-#    en la carpeta R con el nombre que le asignemos. 
-# ------------------------------------------------------------------------------
-
-usethis::use_r("funcion_suma")
-
-
-# Se nos abre un scrip en la carpeta R, llamado funcion_suma.R, y empezamos a 
-# crear una función simple, de tal manera que tenga como entrada 2 numero y 
-# retorne la suma de los mismos.
-
-funcion_suma <- function(a,b){
-  suma <- a + b
-  return(suma)
-}
-
-
-# ------------------------------------------------------------------------------
-# 5) Una vez, creada una funcion simple, debemos llamar a todas las funciones, 
-#    para poner a "funcion_suma"  a dispocición la experimentación, utilizando 
-#    la funcion "load_all('.')" del paquete devtools
-# ------------------------------------------------------------------------------
-
-devtools::load_all('.')
-
-# Comprobación del funcionamiento de la funcion "funcion_suma"
-
-funcion_suma(10,200)
-funcion_suma(5,3)
-
-# Tenemos evidencia empírica informal, que la función "funcion_suma()", funciona 
-# correctamente. Pero para asegurar que todas las partes móviles del nuevo 
-# paquete funcionan?.
-
-# ------------------------------------------------------------------------------
-# 6) Usar la función check() del paquete devtools es una forma conveniente de 
-#    verificar que las partes móviles funcione sin salir de la sección R.
-# ------------------------------------------------------------------------------
-
-devtools::check()
-
-```
-
-<br>
-
-# `r colorize("Tutorial","#1CA666")`
-
-# `r colorize("Manual para crear un paquete R con RStudio","#1CA666")`
-
-__Nota:__ El manual aun se esta creando
-
-Amanecer comprobando 
+<object data="Tutorial/ScripNuevoPaquete.pdf" width=775, height=550></object>
 
 <br>
 
